@@ -5,7 +5,7 @@ import dash_table
 from dash.dependencies import Input, Output
 import pandas as pd
 
-df = pd.read_csv('./data_for_plot.csv')
+df = pd.read_csv('./world_data_with_codes.csv')
 cummulative_cases = df.groupby(['Date','Country']).sum()['Cases'].reset_index()
 dates = sorted(set(df['Date']))
 
