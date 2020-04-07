@@ -5,6 +5,7 @@ import dash_table
 import pandas as pd
 import plotly.graph_objects as go
 from dash.dependencies import Input, Output
+import flask
 
 df = pd.read_csv('./world_data_with_codes.csv')
 cummulative_cases = df.groupby(['Date','Country']).sum()['Cases'].reset_index()
@@ -15,8 +16,8 @@ cummulative_cases_US = df_US.groupby(['Date','State','Day','Code']).sum().reset_
 dates_US = sorted(set(df_US['Date']))
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = flask.Flask(__name__)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, server=server)
 
 colors = {
     'background': '#111111',
@@ -290,4 +291,4 @@ def show_date_US(day_US):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, host='0.0.0.0', port=8080)
+    app.run_server(debug=False, host='0.0.0.0', port=8080)
