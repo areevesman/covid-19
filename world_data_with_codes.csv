@@ -143,6 +143,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-22,0,Saint Lucia,0,0,LCA
 2020-01-22,0,Saint Vincent and the Grenadines,0,0,VCT
 2020-01-22,0,San Marino,0,0,SMR
+2020-01-22,0,Sao Tome and Principe,0,0,STP
 2020-01-22,0,Saudi Arabia,0,0,SAU
 2020-01-22,0,Senegal,0,0,SEN
 2020-01-22,0,Serbia,0,0,SRB
@@ -153,6 +154,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-22,0,Slovenia,0,0,SVN
 2020-01-22,0,Somalia,0,0,SOM
 2020-01-22,0,South Africa,0,0,ZAF
+2020-01-22,0,South Sudan,0,0,SSD
 2020-01-22,0,Spain,0,0,ESP
 2020-01-22,0,Sri Lanka,0,0,LKA
 2020-01-22,0,Sudan,0,0,SDN
@@ -178,6 +180,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-22,0,Venezuela,0,0,VEN
 2020-01-22,0,Vietnam,0,0,VNM
 2020-01-22,0,West Bank and Gaza,0,0,
+2020-01-22,0,Western Sahara,0,0,
 2020-01-22,0,Zambia,0,0,ZMB
 2020-01-22,0,Zimbabwe,0,0,ZWE
 2020-01-23,1,Afghanistan,0,0,AFG
@@ -324,6 +327,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-23,1,Saint Lucia,0,0,LCA
 2020-01-23,1,Saint Vincent and the Grenadines,0,0,VCT
 2020-01-23,1,San Marino,0,0,SMR
+2020-01-23,1,Sao Tome and Principe,0,0,STP
 2020-01-23,1,Saudi Arabia,0,0,SAU
 2020-01-23,1,Senegal,0,0,SEN
 2020-01-23,1,Serbia,0,0,SRB
@@ -334,6 +338,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-23,1,Slovenia,0,0,SVN
 2020-01-23,1,Somalia,0,0,SOM
 2020-01-23,1,South Africa,0,0,ZAF
+2020-01-23,1,South Sudan,0,0,SSD
 2020-01-23,1,Spain,0,0,ESP
 2020-01-23,1,Sri Lanka,0,0,LKA
 2020-01-23,1,Sudan,0,0,SDN
@@ -359,6 +364,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-23,1,Venezuela,0,0,VEN
 2020-01-23,1,Vietnam,2,0,VNM
 2020-01-23,1,West Bank and Gaza,0,0,
+2020-01-23,1,Western Sahara,0,0,
 2020-01-23,1,Zambia,0,0,ZMB
 2020-01-23,1,Zimbabwe,0,0,ZWE
 2020-01-24,2,Afghanistan,0,0,AFG
@@ -505,6 +511,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-24,2,Saint Lucia,0,0,LCA
 2020-01-24,2,Saint Vincent and the Grenadines,0,0,VCT
 2020-01-24,2,San Marino,0,0,SMR
+2020-01-24,2,Sao Tome and Principe,0,0,STP
 2020-01-24,2,Saudi Arabia,0,0,SAU
 2020-01-24,2,Senegal,0,0,SEN
 2020-01-24,2,Serbia,0,0,SRB
@@ -515,6 +522,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-24,2,Slovenia,0,0,SVN
 2020-01-24,2,Somalia,0,0,SOM
 2020-01-24,2,South Africa,0,0,ZAF
+2020-01-24,2,South Sudan,0,0,SSD
 2020-01-24,2,Spain,0,0,ESP
 2020-01-24,2,Sri Lanka,0,0,LKA
 2020-01-24,2,Sudan,0,0,SDN
@@ -540,6 +548,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-24,2,Venezuela,0,0,VEN
 2020-01-24,2,Vietnam,2,0,VNM
 2020-01-24,2,West Bank and Gaza,0,0,
+2020-01-24,2,Western Sahara,0,0,
 2020-01-24,2,Zambia,0,0,ZMB
 2020-01-24,2,Zimbabwe,0,0,ZWE
 2020-01-25,3,Afghanistan,0,0,AFG
@@ -686,6 +695,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-25,3,Saint Lucia,0,0,LCA
 2020-01-25,3,Saint Vincent and the Grenadines,0,0,VCT
 2020-01-25,3,San Marino,0,0,SMR
+2020-01-25,3,Sao Tome and Principe,0,0,STP
 2020-01-25,3,Saudi Arabia,0,0,SAU
 2020-01-25,3,Senegal,0,0,SEN
 2020-01-25,3,Serbia,0,0,SRB
@@ -696,6 +706,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-25,3,Slovenia,0,0,SVN
 2020-01-25,3,Somalia,0,0,SOM
 2020-01-25,3,South Africa,0,0,ZAF
+2020-01-25,3,South Sudan,0,0,SSD
 2020-01-25,3,Spain,0,0,ESP
 2020-01-25,3,Sri Lanka,0,0,LKA
 2020-01-25,3,Sudan,0,0,SDN
@@ -721,6 +732,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-25,3,Venezuela,0,0,VEN
 2020-01-25,3,Vietnam,2,0,VNM
 2020-01-25,3,West Bank and Gaza,0,0,
+2020-01-25,3,Western Sahara,0,0,
 2020-01-25,3,Zambia,0,0,ZMB
 2020-01-25,3,Zimbabwe,0,0,ZWE
 2020-01-26,4,Afghanistan,0,0,AFG
@@ -867,6 +879,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-26,4,Saint Lucia,0,0,LCA
 2020-01-26,4,Saint Vincent and the Grenadines,0,0,VCT
 2020-01-26,4,San Marino,0,0,SMR
+2020-01-26,4,Sao Tome and Principe,0,0,STP
 2020-01-26,4,Saudi Arabia,0,0,SAU
 2020-01-26,4,Senegal,0,0,SEN
 2020-01-26,4,Serbia,0,0,SRB
@@ -877,6 +890,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-26,4,Slovenia,0,0,SVN
 2020-01-26,4,Somalia,0,0,SOM
 2020-01-26,4,South Africa,0,0,ZAF
+2020-01-26,4,South Sudan,0,0,SSD
 2020-01-26,4,Spain,0,0,ESP
 2020-01-26,4,Sri Lanka,0,0,LKA
 2020-01-26,4,Sudan,0,0,SDN
@@ -902,6 +916,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-26,4,Venezuela,0,0,VEN
 2020-01-26,4,Vietnam,2,0,VNM
 2020-01-26,4,West Bank and Gaza,0,0,
+2020-01-26,4,Western Sahara,0,0,
 2020-01-26,4,Zambia,0,0,ZMB
 2020-01-26,4,Zimbabwe,0,0,ZWE
 2020-01-27,5,Afghanistan,0,0,AFG
@@ -1048,6 +1063,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-27,5,Saint Lucia,0,0,LCA
 2020-01-27,5,Saint Vincent and the Grenadines,0,0,VCT
 2020-01-27,5,San Marino,0,0,SMR
+2020-01-27,5,Sao Tome and Principe,0,0,STP
 2020-01-27,5,Saudi Arabia,0,0,SAU
 2020-01-27,5,Senegal,0,0,SEN
 2020-01-27,5,Serbia,0,0,SRB
@@ -1058,6 +1074,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-27,5,Slovenia,0,0,SVN
 2020-01-27,5,Somalia,0,0,SOM
 2020-01-27,5,South Africa,0,0,ZAF
+2020-01-27,5,South Sudan,0,0,SSD
 2020-01-27,5,Spain,0,0,ESP
 2020-01-27,5,Sri Lanka,1,0,LKA
 2020-01-27,5,Sudan,0,0,SDN
@@ -1083,6 +1100,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-27,5,Venezuela,0,0,VEN
 2020-01-27,5,Vietnam,2,0,VNM
 2020-01-27,5,West Bank and Gaza,0,0,
+2020-01-27,5,Western Sahara,0,0,
 2020-01-27,5,Zambia,0,0,ZMB
 2020-01-27,5,Zimbabwe,0,0,ZWE
 2020-01-28,6,Afghanistan,0,0,AFG
@@ -1229,6 +1247,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-28,6,Saint Lucia,0,0,LCA
 2020-01-28,6,Saint Vincent and the Grenadines,0,0,VCT
 2020-01-28,6,San Marino,0,0,SMR
+2020-01-28,6,Sao Tome and Principe,0,0,STP
 2020-01-28,6,Saudi Arabia,0,0,SAU
 2020-01-28,6,Senegal,0,0,SEN
 2020-01-28,6,Serbia,0,0,SRB
@@ -1239,6 +1258,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-28,6,Slovenia,0,0,SVN
 2020-01-28,6,Somalia,0,0,SOM
 2020-01-28,6,South Africa,0,0,ZAF
+2020-01-28,6,South Sudan,0,0,SSD
 2020-01-28,6,Spain,0,0,ESP
 2020-01-28,6,Sri Lanka,1,0,LKA
 2020-01-28,6,Sudan,0,0,SDN
@@ -1264,6 +1284,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-28,6,Venezuela,0,0,VEN
 2020-01-28,6,Vietnam,2,0,VNM
 2020-01-28,6,West Bank and Gaza,0,0,
+2020-01-28,6,Western Sahara,0,0,
 2020-01-28,6,Zambia,0,0,ZMB
 2020-01-28,6,Zimbabwe,0,0,ZWE
 2020-01-29,7,Afghanistan,0,0,AFG
@@ -1410,6 +1431,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-29,7,Saint Lucia,0,0,LCA
 2020-01-29,7,Saint Vincent and the Grenadines,0,0,VCT
 2020-01-29,7,San Marino,0,0,SMR
+2020-01-29,7,Sao Tome and Principe,0,0,STP
 2020-01-29,7,Saudi Arabia,0,0,SAU
 2020-01-29,7,Senegal,0,0,SEN
 2020-01-29,7,Serbia,0,0,SRB
@@ -1420,6 +1442,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-29,7,Slovenia,0,0,SVN
 2020-01-29,7,Somalia,0,0,SOM
 2020-01-29,7,South Africa,0,0,ZAF
+2020-01-29,7,South Sudan,0,0,SSD
 2020-01-29,7,Spain,0,0,ESP
 2020-01-29,7,Sri Lanka,1,0,LKA
 2020-01-29,7,Sudan,0,0,SDN
@@ -1445,6 +1468,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-29,7,Venezuela,0,0,VEN
 2020-01-29,7,Vietnam,2,0,VNM
 2020-01-29,7,West Bank and Gaza,0,0,
+2020-01-29,7,Western Sahara,0,0,
 2020-01-29,7,Zambia,0,0,ZMB
 2020-01-29,7,Zimbabwe,0,0,ZWE
 2020-01-30,8,Afghanistan,0,0,AFG
@@ -1591,6 +1615,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-30,8,Saint Lucia,0,0,LCA
 2020-01-30,8,Saint Vincent and the Grenadines,0,0,VCT
 2020-01-30,8,San Marino,0,0,SMR
+2020-01-30,8,Sao Tome and Principe,0,0,STP
 2020-01-30,8,Saudi Arabia,0,0,SAU
 2020-01-30,8,Senegal,0,0,SEN
 2020-01-30,8,Serbia,0,0,SRB
@@ -1601,6 +1626,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-30,8,Slovenia,0,0,SVN
 2020-01-30,8,Somalia,0,0,SOM
 2020-01-30,8,South Africa,0,0,ZAF
+2020-01-30,8,South Sudan,0,0,SSD
 2020-01-30,8,Spain,0,0,ESP
 2020-01-30,8,Sri Lanka,1,0,LKA
 2020-01-30,8,Sudan,0,0,SDN
@@ -1626,6 +1652,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-30,8,Venezuela,0,0,VEN
 2020-01-30,8,Vietnam,2,0,VNM
 2020-01-30,8,West Bank and Gaza,0,0,
+2020-01-30,8,Western Sahara,0,0,
 2020-01-30,8,Zambia,0,0,ZMB
 2020-01-30,8,Zimbabwe,0,0,ZWE
 2020-01-31,9,Afghanistan,0,0,AFG
@@ -1772,6 +1799,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-31,9,Saint Lucia,0,0,LCA
 2020-01-31,9,Saint Vincent and the Grenadines,0,0,VCT
 2020-01-31,9,San Marino,0,0,SMR
+2020-01-31,9,Sao Tome and Principe,0,0,STP
 2020-01-31,9,Saudi Arabia,0,0,SAU
 2020-01-31,9,Senegal,0,0,SEN
 2020-01-31,9,Serbia,0,0,SRB
@@ -1782,6 +1810,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-31,9,Slovenia,0,0,SVN
 2020-01-31,9,Somalia,0,0,SOM
 2020-01-31,9,South Africa,0,0,ZAF
+2020-01-31,9,South Sudan,0,0,SSD
 2020-01-31,9,Spain,0,0,ESP
 2020-01-31,9,Sri Lanka,1,0,LKA
 2020-01-31,9,Sudan,0,0,SDN
@@ -1807,6 +1836,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-01-31,9,Venezuela,0,0,VEN
 2020-01-31,9,Vietnam,2,0,VNM
 2020-01-31,9,West Bank and Gaza,0,0,
+2020-01-31,9,Western Sahara,0,0,
 2020-01-31,9,Zambia,0,0,ZMB
 2020-01-31,9,Zimbabwe,0,0,ZWE
 2020-02-01,10,Afghanistan,0,0,AFG
@@ -1953,6 +1983,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-01,10,Saint Lucia,0,0,LCA
 2020-02-01,10,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-01,10,San Marino,0,0,SMR
+2020-02-01,10,Sao Tome and Principe,0,0,STP
 2020-02-01,10,Saudi Arabia,0,0,SAU
 2020-02-01,10,Senegal,0,0,SEN
 2020-02-01,10,Serbia,0,0,SRB
@@ -1963,6 +1994,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-01,10,Slovenia,0,0,SVN
 2020-02-01,10,Somalia,0,0,SOM
 2020-02-01,10,South Africa,0,0,ZAF
+2020-02-01,10,South Sudan,0,0,SSD
 2020-02-01,10,Spain,1,0,ESP
 2020-02-01,10,Sri Lanka,1,0,LKA
 2020-02-01,10,Sudan,0,0,SDN
@@ -1988,6 +2020,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-01,10,Venezuela,0,0,VEN
 2020-02-01,10,Vietnam,6,0,VNM
 2020-02-01,10,West Bank and Gaza,0,0,
+2020-02-01,10,Western Sahara,0,0,
 2020-02-01,10,Zambia,0,0,ZMB
 2020-02-01,10,Zimbabwe,0,0,ZWE
 2020-02-02,11,Afghanistan,0,0,AFG
@@ -2134,6 +2167,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-02,11,Saint Lucia,0,0,LCA
 2020-02-02,11,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-02,11,San Marino,0,0,SMR
+2020-02-02,11,Sao Tome and Principe,0,0,STP
 2020-02-02,11,Saudi Arabia,0,0,SAU
 2020-02-02,11,Senegal,0,0,SEN
 2020-02-02,11,Serbia,0,0,SRB
@@ -2144,6 +2178,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-02,11,Slovenia,0,0,SVN
 2020-02-02,11,Somalia,0,0,SOM
 2020-02-02,11,South Africa,0,0,ZAF
+2020-02-02,11,South Sudan,0,0,SSD
 2020-02-02,11,Spain,1,0,ESP
 2020-02-02,11,Sri Lanka,1,0,LKA
 2020-02-02,11,Sudan,0,0,SDN
@@ -2169,6 +2204,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-02,11,Venezuela,0,0,VEN
 2020-02-02,11,Vietnam,6,0,VNM
 2020-02-02,11,West Bank and Gaza,0,0,
+2020-02-02,11,Western Sahara,0,0,
 2020-02-02,11,Zambia,0,0,ZMB
 2020-02-02,11,Zimbabwe,0,0,ZWE
 2020-02-03,12,Afghanistan,0,0,AFG
@@ -2315,6 +2351,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-03,12,Saint Lucia,0,0,LCA
 2020-02-03,12,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-03,12,San Marino,0,0,SMR
+2020-02-03,12,Sao Tome and Principe,0,0,STP
 2020-02-03,12,Saudi Arabia,0,0,SAU
 2020-02-03,12,Senegal,0,0,SEN
 2020-02-03,12,Serbia,0,0,SRB
@@ -2325,6 +2362,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-03,12,Slovenia,0,0,SVN
 2020-02-03,12,Somalia,0,0,SOM
 2020-02-03,12,South Africa,0,0,ZAF
+2020-02-03,12,South Sudan,0,0,SSD
 2020-02-03,12,Spain,1,0,ESP
 2020-02-03,12,Sri Lanka,1,0,LKA
 2020-02-03,12,Sudan,0,0,SDN
@@ -2350,6 +2388,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-03,12,Venezuela,0,0,VEN
 2020-02-03,12,Vietnam,8,0,VNM
 2020-02-03,12,West Bank and Gaza,0,0,
+2020-02-03,12,Western Sahara,0,0,
 2020-02-03,12,Zambia,0,0,ZMB
 2020-02-03,12,Zimbabwe,0,0,ZWE
 2020-02-04,13,Afghanistan,0,0,AFG
@@ -2496,6 +2535,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-04,13,Saint Lucia,0,0,LCA
 2020-02-04,13,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-04,13,San Marino,0,0,SMR
+2020-02-04,13,Sao Tome and Principe,0,0,STP
 2020-02-04,13,Saudi Arabia,0,0,SAU
 2020-02-04,13,Senegal,0,0,SEN
 2020-02-04,13,Serbia,0,0,SRB
@@ -2506,6 +2546,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-04,13,Slovenia,0,0,SVN
 2020-02-04,13,Somalia,0,0,SOM
 2020-02-04,13,South Africa,0,0,ZAF
+2020-02-04,13,South Sudan,0,0,SSD
 2020-02-04,13,Spain,1,0,ESP
 2020-02-04,13,Sri Lanka,1,0,LKA
 2020-02-04,13,Sudan,0,0,SDN
@@ -2531,6 +2572,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-04,13,Venezuela,0,0,VEN
 2020-02-04,13,Vietnam,8,0,VNM
 2020-02-04,13,West Bank and Gaza,0,0,
+2020-02-04,13,Western Sahara,0,0,
 2020-02-04,13,Zambia,0,0,ZMB
 2020-02-04,13,Zimbabwe,0,0,ZWE
 2020-02-05,14,Afghanistan,0,0,AFG
@@ -2677,6 +2719,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-05,14,Saint Lucia,0,0,LCA
 2020-02-05,14,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-05,14,San Marino,0,0,SMR
+2020-02-05,14,Sao Tome and Principe,0,0,STP
 2020-02-05,14,Saudi Arabia,0,0,SAU
 2020-02-05,14,Senegal,0,0,SEN
 2020-02-05,14,Serbia,0,0,SRB
@@ -2687,6 +2730,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-05,14,Slovenia,0,0,SVN
 2020-02-05,14,Somalia,0,0,SOM
 2020-02-05,14,South Africa,0,0,ZAF
+2020-02-05,14,South Sudan,0,0,SSD
 2020-02-05,14,Spain,1,0,ESP
 2020-02-05,14,Sri Lanka,1,0,LKA
 2020-02-05,14,Sudan,0,0,SDN
@@ -2712,6 +2756,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-05,14,Venezuela,0,0,VEN
 2020-02-05,14,Vietnam,8,0,VNM
 2020-02-05,14,West Bank and Gaza,0,0,
+2020-02-05,14,Western Sahara,0,0,
 2020-02-05,14,Zambia,0,0,ZMB
 2020-02-05,14,Zimbabwe,0,0,ZWE
 2020-02-06,15,Afghanistan,0,0,AFG
@@ -2858,6 +2903,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-06,15,Saint Lucia,0,0,LCA
 2020-02-06,15,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-06,15,San Marino,0,0,SMR
+2020-02-06,15,Sao Tome and Principe,0,0,STP
 2020-02-06,15,Saudi Arabia,0,0,SAU
 2020-02-06,15,Senegal,0,0,SEN
 2020-02-06,15,Serbia,0,0,SRB
@@ -2868,6 +2914,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-06,15,Slovenia,0,0,SVN
 2020-02-06,15,Somalia,0,0,SOM
 2020-02-06,15,South Africa,0,0,ZAF
+2020-02-06,15,South Sudan,0,0,SSD
 2020-02-06,15,Spain,1,0,ESP
 2020-02-06,15,Sri Lanka,1,0,LKA
 2020-02-06,15,Sudan,0,0,SDN
@@ -2893,6 +2940,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-06,15,Venezuela,0,0,VEN
 2020-02-06,15,Vietnam,10,0,VNM
 2020-02-06,15,West Bank and Gaza,0,0,
+2020-02-06,15,Western Sahara,0,0,
 2020-02-06,15,Zambia,0,0,ZMB
 2020-02-06,15,Zimbabwe,0,0,ZWE
 2020-02-07,16,Afghanistan,0,0,AFG
@@ -3039,6 +3087,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-07,16,Saint Lucia,0,0,LCA
 2020-02-07,16,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-07,16,San Marino,0,0,SMR
+2020-02-07,16,Sao Tome and Principe,0,0,STP
 2020-02-07,16,Saudi Arabia,0,0,SAU
 2020-02-07,16,Senegal,0,0,SEN
 2020-02-07,16,Serbia,0,0,SRB
@@ -3049,6 +3098,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-07,16,Slovenia,0,0,SVN
 2020-02-07,16,Somalia,0,0,SOM
 2020-02-07,16,South Africa,0,0,ZAF
+2020-02-07,16,South Sudan,0,0,SSD
 2020-02-07,16,Spain,1,0,ESP
 2020-02-07,16,Sri Lanka,1,0,LKA
 2020-02-07,16,Sudan,0,0,SDN
@@ -3074,6 +3124,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-07,16,Venezuela,0,0,VEN
 2020-02-07,16,Vietnam,10,0,VNM
 2020-02-07,16,West Bank and Gaza,0,0,
+2020-02-07,16,Western Sahara,0,0,
 2020-02-07,16,Zambia,0,0,ZMB
 2020-02-07,16,Zimbabwe,0,0,ZWE
 2020-02-08,17,Afghanistan,0,0,AFG
@@ -3220,6 +3271,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-08,17,Saint Lucia,0,0,LCA
 2020-02-08,17,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-08,17,San Marino,0,0,SMR
+2020-02-08,17,Sao Tome and Principe,0,0,STP
 2020-02-08,17,Saudi Arabia,0,0,SAU
 2020-02-08,17,Senegal,0,0,SEN
 2020-02-08,17,Serbia,0,0,SRB
@@ -3230,6 +3282,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-08,17,Slovenia,0,0,SVN
 2020-02-08,17,Somalia,0,0,SOM
 2020-02-08,17,South Africa,0,0,ZAF
+2020-02-08,17,South Sudan,0,0,SSD
 2020-02-08,17,Spain,1,0,ESP
 2020-02-08,17,Sri Lanka,1,0,LKA
 2020-02-08,17,Sudan,0,0,SDN
@@ -3255,6 +3308,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-08,17,Venezuela,0,0,VEN
 2020-02-08,17,Vietnam,13,0,VNM
 2020-02-08,17,West Bank and Gaza,0,0,
+2020-02-08,17,Western Sahara,0,0,
 2020-02-08,17,Zambia,0,0,ZMB
 2020-02-08,17,Zimbabwe,0,0,ZWE
 2020-02-09,18,Afghanistan,0,0,AFG
@@ -3401,6 +3455,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-09,18,Saint Lucia,0,0,LCA
 2020-02-09,18,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-09,18,San Marino,0,0,SMR
+2020-02-09,18,Sao Tome and Principe,0,0,STP
 2020-02-09,18,Saudi Arabia,0,0,SAU
 2020-02-09,18,Senegal,0,0,SEN
 2020-02-09,18,Serbia,0,0,SRB
@@ -3411,6 +3466,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-09,18,Slovenia,0,0,SVN
 2020-02-09,18,Somalia,0,0,SOM
 2020-02-09,18,South Africa,0,0,ZAF
+2020-02-09,18,South Sudan,0,0,SSD
 2020-02-09,18,Spain,2,0,ESP
 2020-02-09,18,Sri Lanka,1,0,LKA
 2020-02-09,18,Sudan,0,0,SDN
@@ -3436,6 +3492,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-09,18,Venezuela,0,0,VEN
 2020-02-09,18,Vietnam,13,0,VNM
 2020-02-09,18,West Bank and Gaza,0,0,
+2020-02-09,18,Western Sahara,0,0,
 2020-02-09,18,Zambia,0,0,ZMB
 2020-02-09,18,Zimbabwe,0,0,ZWE
 2020-02-10,19,Afghanistan,0,0,AFG
@@ -3582,6 +3639,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-10,19,Saint Lucia,0,0,LCA
 2020-02-10,19,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-10,19,San Marino,0,0,SMR
+2020-02-10,19,Sao Tome and Principe,0,0,STP
 2020-02-10,19,Saudi Arabia,0,0,SAU
 2020-02-10,19,Senegal,0,0,SEN
 2020-02-10,19,Serbia,0,0,SRB
@@ -3592,6 +3650,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-10,19,Slovenia,0,0,SVN
 2020-02-10,19,Somalia,0,0,SOM
 2020-02-10,19,South Africa,0,0,ZAF
+2020-02-10,19,South Sudan,0,0,SSD
 2020-02-10,19,Spain,2,0,ESP
 2020-02-10,19,Sri Lanka,1,0,LKA
 2020-02-10,19,Sudan,0,0,SDN
@@ -3617,6 +3676,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-10,19,Venezuela,0,0,VEN
 2020-02-10,19,Vietnam,14,0,VNM
 2020-02-10,19,West Bank and Gaza,0,0,
+2020-02-10,19,Western Sahara,0,0,
 2020-02-10,19,Zambia,0,0,ZMB
 2020-02-10,19,Zimbabwe,0,0,ZWE
 2020-02-11,20,Afghanistan,0,0,AFG
@@ -3763,6 +3823,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-11,20,Saint Lucia,0,0,LCA
 2020-02-11,20,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-11,20,San Marino,0,0,SMR
+2020-02-11,20,Sao Tome and Principe,0,0,STP
 2020-02-11,20,Saudi Arabia,0,0,SAU
 2020-02-11,20,Senegal,0,0,SEN
 2020-02-11,20,Serbia,0,0,SRB
@@ -3773,6 +3834,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-11,20,Slovenia,0,0,SVN
 2020-02-11,20,Somalia,0,0,SOM
 2020-02-11,20,South Africa,0,0,ZAF
+2020-02-11,20,South Sudan,0,0,SSD
 2020-02-11,20,Spain,2,0,ESP
 2020-02-11,20,Sri Lanka,1,0,LKA
 2020-02-11,20,Sudan,0,0,SDN
@@ -3798,6 +3860,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-11,20,Venezuela,0,0,VEN
 2020-02-11,20,Vietnam,15,0,VNM
 2020-02-11,20,West Bank and Gaza,0,0,
+2020-02-11,20,Western Sahara,0,0,
 2020-02-11,20,Zambia,0,0,ZMB
 2020-02-11,20,Zimbabwe,0,0,ZWE
 2020-02-12,21,Afghanistan,0,0,AFG
@@ -3944,6 +4007,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-12,21,Saint Lucia,0,0,LCA
 2020-02-12,21,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-12,21,San Marino,0,0,SMR
+2020-02-12,21,Sao Tome and Principe,0,0,STP
 2020-02-12,21,Saudi Arabia,0,0,SAU
 2020-02-12,21,Senegal,0,0,SEN
 2020-02-12,21,Serbia,0,0,SRB
@@ -3954,6 +4018,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-12,21,Slovenia,0,0,SVN
 2020-02-12,21,Somalia,0,0,SOM
 2020-02-12,21,South Africa,0,0,ZAF
+2020-02-12,21,South Sudan,0,0,SSD
 2020-02-12,21,Spain,2,0,ESP
 2020-02-12,21,Sri Lanka,1,0,LKA
 2020-02-12,21,Sudan,0,0,SDN
@@ -3979,6 +4044,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-12,21,Venezuela,0,0,VEN
 2020-02-12,21,Vietnam,15,0,VNM
 2020-02-12,21,West Bank and Gaza,0,0,
+2020-02-12,21,Western Sahara,0,0,
 2020-02-12,21,Zambia,0,0,ZMB
 2020-02-12,21,Zimbabwe,0,0,ZWE
 2020-02-13,22,Afghanistan,0,0,AFG
@@ -4125,6 +4191,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-13,22,Saint Lucia,0,0,LCA
 2020-02-13,22,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-13,22,San Marino,0,0,SMR
+2020-02-13,22,Sao Tome and Principe,0,0,STP
 2020-02-13,22,Saudi Arabia,0,0,SAU
 2020-02-13,22,Senegal,0,0,SEN
 2020-02-13,22,Serbia,0,0,SRB
@@ -4135,6 +4202,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-13,22,Slovenia,0,0,SVN
 2020-02-13,22,Somalia,0,0,SOM
 2020-02-13,22,South Africa,0,0,ZAF
+2020-02-13,22,South Sudan,0,0,SSD
 2020-02-13,22,Spain,2,0,ESP
 2020-02-13,22,Sri Lanka,1,0,LKA
 2020-02-13,22,Sudan,0,0,SDN
@@ -4160,6 +4228,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-13,22,Venezuela,0,0,VEN
 2020-02-13,22,Vietnam,16,0,VNM
 2020-02-13,22,West Bank and Gaza,0,0,
+2020-02-13,22,Western Sahara,0,0,
 2020-02-13,22,Zambia,0,0,ZMB
 2020-02-13,22,Zimbabwe,0,0,ZWE
 2020-02-14,23,Afghanistan,0,0,AFG
@@ -4306,6 +4375,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-14,23,Saint Lucia,0,0,LCA
 2020-02-14,23,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-14,23,San Marino,0,0,SMR
+2020-02-14,23,Sao Tome and Principe,0,0,STP
 2020-02-14,23,Saudi Arabia,0,0,SAU
 2020-02-14,23,Senegal,0,0,SEN
 2020-02-14,23,Serbia,0,0,SRB
@@ -4316,6 +4386,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-14,23,Slovenia,0,0,SVN
 2020-02-14,23,Somalia,0,0,SOM
 2020-02-14,23,South Africa,0,0,ZAF
+2020-02-14,23,South Sudan,0,0,SSD
 2020-02-14,23,Spain,2,0,ESP
 2020-02-14,23,Sri Lanka,1,0,LKA
 2020-02-14,23,Sudan,0,0,SDN
@@ -4341,6 +4412,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-14,23,Venezuela,0,0,VEN
 2020-02-14,23,Vietnam,16,0,VNM
 2020-02-14,23,West Bank and Gaza,0,0,
+2020-02-14,23,Western Sahara,0,0,
 2020-02-14,23,Zambia,0,0,ZMB
 2020-02-14,23,Zimbabwe,0,0,ZWE
 2020-02-15,24,Afghanistan,0,0,AFG
@@ -4487,6 +4559,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-15,24,Saint Lucia,0,0,LCA
 2020-02-15,24,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-15,24,San Marino,0,0,SMR
+2020-02-15,24,Sao Tome and Principe,0,0,STP
 2020-02-15,24,Saudi Arabia,0,0,SAU
 2020-02-15,24,Senegal,0,0,SEN
 2020-02-15,24,Serbia,0,0,SRB
@@ -4497,6 +4570,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-15,24,Slovenia,0,0,SVN
 2020-02-15,24,Somalia,0,0,SOM
 2020-02-15,24,South Africa,0,0,ZAF
+2020-02-15,24,South Sudan,0,0,SSD
 2020-02-15,24,Spain,2,0,ESP
 2020-02-15,24,Sri Lanka,1,0,LKA
 2020-02-15,24,Sudan,0,0,SDN
@@ -4522,6 +4596,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-15,24,Venezuela,0,0,VEN
 2020-02-15,24,Vietnam,16,0,VNM
 2020-02-15,24,West Bank and Gaza,0,0,
+2020-02-15,24,Western Sahara,0,0,
 2020-02-15,24,Zambia,0,0,ZMB
 2020-02-15,24,Zimbabwe,0,0,ZWE
 2020-02-16,25,Afghanistan,0,0,AFG
@@ -4668,6 +4743,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-16,25,Saint Lucia,0,0,LCA
 2020-02-16,25,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-16,25,San Marino,0,0,SMR
+2020-02-16,25,Sao Tome and Principe,0,0,STP
 2020-02-16,25,Saudi Arabia,0,0,SAU
 2020-02-16,25,Senegal,0,0,SEN
 2020-02-16,25,Serbia,0,0,SRB
@@ -4678,6 +4754,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-16,25,Slovenia,0,0,SVN
 2020-02-16,25,Somalia,0,0,SOM
 2020-02-16,25,South Africa,0,0,ZAF
+2020-02-16,25,South Sudan,0,0,SSD
 2020-02-16,25,Spain,2,0,ESP
 2020-02-16,25,Sri Lanka,1,0,LKA
 2020-02-16,25,Sudan,0,0,SDN
@@ -4703,6 +4780,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-16,25,Venezuela,0,0,VEN
 2020-02-16,25,Vietnam,16,0,VNM
 2020-02-16,25,West Bank and Gaza,0,0,
+2020-02-16,25,Western Sahara,0,0,
 2020-02-16,25,Zambia,0,0,ZMB
 2020-02-16,25,Zimbabwe,0,0,ZWE
 2020-02-17,26,Afghanistan,0,0,AFG
@@ -4849,6 +4927,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-17,26,Saint Lucia,0,0,LCA
 2020-02-17,26,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-17,26,San Marino,0,0,SMR
+2020-02-17,26,Sao Tome and Principe,0,0,STP
 2020-02-17,26,Saudi Arabia,0,0,SAU
 2020-02-17,26,Senegal,0,0,SEN
 2020-02-17,26,Serbia,0,0,SRB
@@ -4859,6 +4938,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-17,26,Slovenia,0,0,SVN
 2020-02-17,26,Somalia,0,0,SOM
 2020-02-17,26,South Africa,0,0,ZAF
+2020-02-17,26,South Sudan,0,0,SSD
 2020-02-17,26,Spain,2,0,ESP
 2020-02-17,26,Sri Lanka,1,0,LKA
 2020-02-17,26,Sudan,0,0,SDN
@@ -4884,6 +4964,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-17,26,Venezuela,0,0,VEN
 2020-02-17,26,Vietnam,16,0,VNM
 2020-02-17,26,West Bank and Gaza,0,0,
+2020-02-17,26,Western Sahara,0,0,
 2020-02-17,26,Zambia,0,0,ZMB
 2020-02-17,26,Zimbabwe,0,0,ZWE
 2020-02-18,27,Afghanistan,0,0,AFG
@@ -5030,6 +5111,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-18,27,Saint Lucia,0,0,LCA
 2020-02-18,27,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-18,27,San Marino,0,0,SMR
+2020-02-18,27,Sao Tome and Principe,0,0,STP
 2020-02-18,27,Saudi Arabia,0,0,SAU
 2020-02-18,27,Senegal,0,0,SEN
 2020-02-18,27,Serbia,0,0,SRB
@@ -5040,6 +5122,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-18,27,Slovenia,0,0,SVN
 2020-02-18,27,Somalia,0,0,SOM
 2020-02-18,27,South Africa,0,0,ZAF
+2020-02-18,27,South Sudan,0,0,SSD
 2020-02-18,27,Spain,2,0,ESP
 2020-02-18,27,Sri Lanka,1,0,LKA
 2020-02-18,27,Sudan,0,0,SDN
@@ -5065,6 +5148,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-18,27,Venezuela,0,0,VEN
 2020-02-18,27,Vietnam,16,0,VNM
 2020-02-18,27,West Bank and Gaza,0,0,
+2020-02-18,27,Western Sahara,0,0,
 2020-02-18,27,Zambia,0,0,ZMB
 2020-02-18,27,Zimbabwe,0,0,ZWE
 2020-02-19,28,Afghanistan,0,0,AFG
@@ -5211,6 +5295,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-19,28,Saint Lucia,0,0,LCA
 2020-02-19,28,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-19,28,San Marino,0,0,SMR
+2020-02-19,28,Sao Tome and Principe,0,0,STP
 2020-02-19,28,Saudi Arabia,0,0,SAU
 2020-02-19,28,Senegal,0,0,SEN
 2020-02-19,28,Serbia,0,0,SRB
@@ -5221,6 +5306,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-19,28,Slovenia,0,0,SVN
 2020-02-19,28,Somalia,0,0,SOM
 2020-02-19,28,South Africa,0,0,ZAF
+2020-02-19,28,South Sudan,0,0,SSD
 2020-02-19,28,Spain,2,0,ESP
 2020-02-19,28,Sri Lanka,1,0,LKA
 2020-02-19,28,Sudan,0,0,SDN
@@ -5246,6 +5332,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-19,28,Venezuela,0,0,VEN
 2020-02-19,28,Vietnam,16,0,VNM
 2020-02-19,28,West Bank and Gaza,0,0,
+2020-02-19,28,Western Sahara,0,0,
 2020-02-19,28,Zambia,0,0,ZMB
 2020-02-19,28,Zimbabwe,0,0,ZWE
 2020-02-20,29,Afghanistan,0,0,AFG
@@ -5392,6 +5479,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-20,29,Saint Lucia,0,0,LCA
 2020-02-20,29,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-20,29,San Marino,0,0,SMR
+2020-02-20,29,Sao Tome and Principe,0,0,STP
 2020-02-20,29,Saudi Arabia,0,0,SAU
 2020-02-20,29,Senegal,0,0,SEN
 2020-02-20,29,Serbia,0,0,SRB
@@ -5402,6 +5490,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-20,29,Slovenia,0,0,SVN
 2020-02-20,29,Somalia,0,0,SOM
 2020-02-20,29,South Africa,0,0,ZAF
+2020-02-20,29,South Sudan,0,0,SSD
 2020-02-20,29,Spain,2,0,ESP
 2020-02-20,29,Sri Lanka,1,0,LKA
 2020-02-20,29,Sudan,0,0,SDN
@@ -5427,6 +5516,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-20,29,Venezuela,0,0,VEN
 2020-02-20,29,Vietnam,16,0,VNM
 2020-02-20,29,West Bank and Gaza,0,0,
+2020-02-20,29,Western Sahara,0,0,
 2020-02-20,29,Zambia,0,0,ZMB
 2020-02-20,29,Zimbabwe,0,0,ZWE
 2020-02-21,30,Afghanistan,0,0,AFG
@@ -5573,6 +5663,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-21,30,Saint Lucia,0,0,LCA
 2020-02-21,30,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-21,30,San Marino,0,0,SMR
+2020-02-21,30,Sao Tome and Principe,0,0,STP
 2020-02-21,30,Saudi Arabia,0,0,SAU
 2020-02-21,30,Senegal,0,0,SEN
 2020-02-21,30,Serbia,0,0,SRB
@@ -5583,6 +5674,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-21,30,Slovenia,0,0,SVN
 2020-02-21,30,Somalia,0,0,SOM
 2020-02-21,30,South Africa,0,0,ZAF
+2020-02-21,30,South Sudan,0,0,SSD
 2020-02-21,30,Spain,2,0,ESP
 2020-02-21,30,Sri Lanka,1,0,LKA
 2020-02-21,30,Sudan,0,0,SDN
@@ -5608,6 +5700,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-21,30,Venezuela,0,0,VEN
 2020-02-21,30,Vietnam,16,0,VNM
 2020-02-21,30,West Bank and Gaza,0,0,
+2020-02-21,30,Western Sahara,0,0,
 2020-02-21,30,Zambia,0,0,ZMB
 2020-02-21,30,Zimbabwe,0,0,ZWE
 2020-02-22,31,Afghanistan,0,0,AFG
@@ -5754,6 +5847,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-22,31,Saint Lucia,0,0,LCA
 2020-02-22,31,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-22,31,San Marino,0,0,SMR
+2020-02-22,31,Sao Tome and Principe,0,0,STP
 2020-02-22,31,Saudi Arabia,0,0,SAU
 2020-02-22,31,Senegal,0,0,SEN
 2020-02-22,31,Serbia,0,0,SRB
@@ -5764,6 +5858,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-22,31,Slovenia,0,0,SVN
 2020-02-22,31,Somalia,0,0,SOM
 2020-02-22,31,South Africa,0,0,ZAF
+2020-02-22,31,South Sudan,0,0,SSD
 2020-02-22,31,Spain,2,0,ESP
 2020-02-22,31,Sri Lanka,1,0,LKA
 2020-02-22,31,Sudan,0,0,SDN
@@ -5789,6 +5884,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-22,31,Venezuela,0,0,VEN
 2020-02-22,31,Vietnam,16,0,VNM
 2020-02-22,31,West Bank and Gaza,0,0,
+2020-02-22,31,Western Sahara,0,0,
 2020-02-22,31,Zambia,0,0,ZMB
 2020-02-22,31,Zimbabwe,0,0,ZWE
 2020-02-23,32,Afghanistan,0,0,AFG
@@ -5935,6 +6031,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-23,32,Saint Lucia,0,0,LCA
 2020-02-23,32,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-23,32,San Marino,0,0,SMR
+2020-02-23,32,Sao Tome and Principe,0,0,STP
 2020-02-23,32,Saudi Arabia,0,0,SAU
 2020-02-23,32,Senegal,0,0,SEN
 2020-02-23,32,Serbia,0,0,SRB
@@ -5945,6 +6042,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-23,32,Slovenia,0,0,SVN
 2020-02-23,32,Somalia,0,0,SOM
 2020-02-23,32,South Africa,0,0,ZAF
+2020-02-23,32,South Sudan,0,0,SSD
 2020-02-23,32,Spain,2,0,ESP
 2020-02-23,32,Sri Lanka,1,0,LKA
 2020-02-23,32,Sudan,0,0,SDN
@@ -5970,6 +6068,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-23,32,Venezuela,0,0,VEN
 2020-02-23,32,Vietnam,16,0,VNM
 2020-02-23,32,West Bank and Gaza,0,0,
+2020-02-23,32,Western Sahara,0,0,
 2020-02-23,32,Zambia,0,0,ZMB
 2020-02-23,32,Zimbabwe,0,0,ZWE
 2020-02-24,33,Afghanistan,1,0,AFG
@@ -6116,6 +6215,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-24,33,Saint Lucia,0,0,LCA
 2020-02-24,33,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-24,33,San Marino,0,0,SMR
+2020-02-24,33,Sao Tome and Principe,0,0,STP
 2020-02-24,33,Saudi Arabia,0,0,SAU
 2020-02-24,33,Senegal,0,0,SEN
 2020-02-24,33,Serbia,0,0,SRB
@@ -6126,6 +6226,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-24,33,Slovenia,0,0,SVN
 2020-02-24,33,Somalia,0,0,SOM
 2020-02-24,33,South Africa,0,0,ZAF
+2020-02-24,33,South Sudan,0,0,SSD
 2020-02-24,33,Spain,2,0,ESP
 2020-02-24,33,Sri Lanka,1,0,LKA
 2020-02-24,33,Sudan,0,0,SDN
@@ -6151,6 +6252,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-24,33,Venezuela,0,0,VEN
 2020-02-24,33,Vietnam,16,0,VNM
 2020-02-24,33,West Bank and Gaza,0,0,
+2020-02-24,33,Western Sahara,0,0,
 2020-02-24,33,Zambia,0,0,ZMB
 2020-02-24,33,Zimbabwe,0,0,ZWE
 2020-02-25,34,Afghanistan,1,0,AFG
@@ -6297,6 +6399,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-25,34,Saint Lucia,0,0,LCA
 2020-02-25,34,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-25,34,San Marino,0,0,SMR
+2020-02-25,34,Sao Tome and Principe,0,0,STP
 2020-02-25,34,Saudi Arabia,0,0,SAU
 2020-02-25,34,Senegal,0,0,SEN
 2020-02-25,34,Serbia,0,0,SRB
@@ -6307,6 +6410,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-25,34,Slovenia,0,0,SVN
 2020-02-25,34,Somalia,0,0,SOM
 2020-02-25,34,South Africa,0,0,ZAF
+2020-02-25,34,South Sudan,0,0,SSD
 2020-02-25,34,Spain,6,0,ESP
 2020-02-25,34,Sri Lanka,1,0,LKA
 2020-02-25,34,Sudan,0,0,SDN
@@ -6332,6 +6436,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-25,34,Venezuela,0,0,VEN
 2020-02-25,34,Vietnam,16,0,VNM
 2020-02-25,34,West Bank and Gaza,0,0,
+2020-02-25,34,Western Sahara,0,0,
 2020-02-25,34,Zambia,0,0,ZMB
 2020-02-25,34,Zimbabwe,0,0,ZWE
 2020-02-26,35,Afghanistan,1,0,AFG
@@ -6478,6 +6583,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-26,35,Saint Lucia,0,0,LCA
 2020-02-26,35,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-26,35,San Marino,0,0,SMR
+2020-02-26,35,Sao Tome and Principe,0,0,STP
 2020-02-26,35,Saudi Arabia,0,0,SAU
 2020-02-26,35,Senegal,0,0,SEN
 2020-02-26,35,Serbia,0,0,SRB
@@ -6488,6 +6594,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-26,35,Slovenia,0,0,SVN
 2020-02-26,35,Somalia,0,0,SOM
 2020-02-26,35,South Africa,0,0,ZAF
+2020-02-26,35,South Sudan,0,0,SSD
 2020-02-26,35,Spain,13,0,ESP
 2020-02-26,35,Sri Lanka,1,0,LKA
 2020-02-26,35,Sudan,0,0,SDN
@@ -6513,6 +6620,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-26,35,Venezuela,0,0,VEN
 2020-02-26,35,Vietnam,16,0,VNM
 2020-02-26,35,West Bank and Gaza,0,0,
+2020-02-26,35,Western Sahara,0,0,
 2020-02-26,35,Zambia,0,0,ZMB
 2020-02-26,35,Zimbabwe,0,0,ZWE
 2020-02-27,36,Afghanistan,1,0,AFG
@@ -6659,6 +6767,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-27,36,Saint Lucia,0,0,LCA
 2020-02-27,36,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-27,36,San Marino,1,0,SMR
+2020-02-27,36,Sao Tome and Principe,0,0,STP
 2020-02-27,36,Saudi Arabia,0,0,SAU
 2020-02-27,36,Senegal,0,0,SEN
 2020-02-27,36,Serbia,0,0,SRB
@@ -6669,6 +6778,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-27,36,Slovenia,0,0,SVN
 2020-02-27,36,Somalia,0,0,SOM
 2020-02-27,36,South Africa,0,0,ZAF
+2020-02-27,36,South Sudan,0,0,SSD
 2020-02-27,36,Spain,15,0,ESP
 2020-02-27,36,Sri Lanka,1,0,LKA
 2020-02-27,36,Sudan,0,0,SDN
@@ -6694,6 +6804,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-27,36,Venezuela,0,0,VEN
 2020-02-27,36,Vietnam,16,0,VNM
 2020-02-27,36,West Bank and Gaza,0,0,
+2020-02-27,36,Western Sahara,0,0,
 2020-02-27,36,Zambia,0,0,ZMB
 2020-02-27,36,Zimbabwe,0,0,ZWE
 2020-02-28,37,Afghanistan,1,0,AFG
@@ -6840,6 +6951,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-28,37,Saint Lucia,0,0,LCA
 2020-02-28,37,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-28,37,San Marino,1,0,SMR
+2020-02-28,37,Sao Tome and Principe,0,0,STP
 2020-02-28,37,Saudi Arabia,0,0,SAU
 2020-02-28,37,Senegal,0,0,SEN
 2020-02-28,37,Serbia,0,0,SRB
@@ -6850,6 +6962,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-28,37,Slovenia,0,0,SVN
 2020-02-28,37,Somalia,0,0,SOM
 2020-02-28,37,South Africa,0,0,ZAF
+2020-02-28,37,South Sudan,0,0,SSD
 2020-02-28,37,Spain,32,0,ESP
 2020-02-28,37,Sri Lanka,1,0,LKA
 2020-02-28,37,Sudan,0,0,SDN
@@ -6875,6 +6988,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-28,37,Venezuela,0,0,VEN
 2020-02-28,37,Vietnam,16,0,VNM
 2020-02-28,37,West Bank and Gaza,0,0,
+2020-02-28,37,Western Sahara,0,0,
 2020-02-28,37,Zambia,0,0,ZMB
 2020-02-28,37,Zimbabwe,0,0,ZWE
 2020-02-29,38,Afghanistan,1,0,AFG
@@ -7021,6 +7135,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-29,38,Saint Lucia,0,0,LCA
 2020-02-29,38,Saint Vincent and the Grenadines,0,0,VCT
 2020-02-29,38,San Marino,1,0,SMR
+2020-02-29,38,Sao Tome and Principe,0,0,STP
 2020-02-29,38,Saudi Arabia,0,0,SAU
 2020-02-29,38,Senegal,0,0,SEN
 2020-02-29,38,Serbia,0,0,SRB
@@ -7031,6 +7146,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-29,38,Slovenia,0,0,SVN
 2020-02-29,38,Somalia,0,0,SOM
 2020-02-29,38,South Africa,0,0,ZAF
+2020-02-29,38,South Sudan,0,0,SSD
 2020-02-29,38,Spain,45,0,ESP
 2020-02-29,38,Sri Lanka,1,0,LKA
 2020-02-29,38,Sudan,0,0,SDN
@@ -7056,6 +7172,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-02-29,38,Venezuela,0,0,VEN
 2020-02-29,38,Vietnam,16,0,VNM
 2020-02-29,38,West Bank and Gaza,0,0,
+2020-02-29,38,Western Sahara,0,0,
 2020-02-29,38,Zambia,0,0,ZMB
 2020-02-29,38,Zimbabwe,0,0,ZWE
 2020-03-01,39,Afghanistan,1,0,AFG
@@ -7202,6 +7319,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-01,39,Saint Lucia,0,0,LCA
 2020-03-01,39,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-01,39,San Marino,1,0,SMR
+2020-03-01,39,Sao Tome and Principe,0,0,STP
 2020-03-01,39,Saudi Arabia,0,0,SAU
 2020-03-01,39,Senegal,0,0,SEN
 2020-03-01,39,Serbia,0,0,SRB
@@ -7212,6 +7330,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-01,39,Slovenia,0,0,SVN
 2020-03-01,39,Somalia,0,0,SOM
 2020-03-01,39,South Africa,0,0,ZAF
+2020-03-01,39,South Sudan,0,0,SSD
 2020-03-01,39,Spain,84,0,ESP
 2020-03-01,39,Sri Lanka,1,0,LKA
 2020-03-01,39,Sudan,0,0,SDN
@@ -7237,6 +7356,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-01,39,Venezuela,0,0,VEN
 2020-03-01,39,Vietnam,16,0,VNM
 2020-03-01,39,West Bank and Gaza,0,0,
+2020-03-01,39,Western Sahara,0,0,
 2020-03-01,39,Zambia,0,0,ZMB
 2020-03-01,39,Zimbabwe,0,0,ZWE
 2020-03-02,40,Afghanistan,1,0,AFG
@@ -7383,6 +7503,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-02,40,Saint Lucia,0,0,LCA
 2020-03-02,40,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-02,40,San Marino,8,0,SMR
+2020-03-02,40,Sao Tome and Principe,0,0,STP
 2020-03-02,40,Saudi Arabia,1,0,SAU
 2020-03-02,40,Senegal,1,0,SEN
 2020-03-02,40,Serbia,0,0,SRB
@@ -7393,6 +7514,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-02,40,Slovenia,0,0,SVN
 2020-03-02,40,Somalia,0,0,SOM
 2020-03-02,40,South Africa,0,0,ZAF
+2020-03-02,40,South Sudan,0,0,SSD
 2020-03-02,40,Spain,120,0,ESP
 2020-03-02,40,Sri Lanka,1,0,LKA
 2020-03-02,40,Sudan,0,0,SDN
@@ -7418,6 +7540,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-02,40,Venezuela,0,0,VEN
 2020-03-02,40,Vietnam,16,0,VNM
 2020-03-02,40,West Bank and Gaza,0,0,
+2020-03-02,40,Western Sahara,0,0,
 2020-03-02,40,Zambia,0,0,ZMB
 2020-03-02,40,Zimbabwe,0,0,ZWE
 2020-03-03,41,Afghanistan,1,0,AFG
@@ -7564,6 +7687,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-03,41,Saint Lucia,0,0,LCA
 2020-03-03,41,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-03,41,San Marino,10,1,SMR
+2020-03-03,41,Sao Tome and Principe,0,0,STP
 2020-03-03,41,Saudi Arabia,1,0,SAU
 2020-03-03,41,Senegal,2,0,SEN
 2020-03-03,41,Serbia,0,0,SRB
@@ -7574,6 +7698,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-03,41,Slovenia,0,0,SVN
 2020-03-03,41,Somalia,0,0,SOM
 2020-03-03,41,South Africa,0,0,ZAF
+2020-03-03,41,South Sudan,0,0,SSD
 2020-03-03,41,Spain,165,1,ESP
 2020-03-03,41,Sri Lanka,1,0,LKA
 2020-03-03,41,Sudan,0,0,SDN
@@ -7599,6 +7724,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-03,41,Venezuela,0,0,VEN
 2020-03-03,41,Vietnam,16,0,VNM
 2020-03-03,41,West Bank and Gaza,0,0,
+2020-03-03,41,Western Sahara,0,0,
 2020-03-03,41,Zambia,0,0,ZMB
 2020-03-03,41,Zimbabwe,0,0,ZWE
 2020-03-04,42,Afghanistan,1,0,AFG
@@ -7745,6 +7871,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-04,42,Saint Lucia,0,0,LCA
 2020-03-04,42,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-04,42,San Marino,16,1,SMR
+2020-03-04,42,Sao Tome and Principe,0,0,STP
 2020-03-04,42,Saudi Arabia,1,0,SAU
 2020-03-04,42,Senegal,4,0,SEN
 2020-03-04,42,Serbia,0,0,SRB
@@ -7755,6 +7882,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-04,42,Slovenia,0,0,SVN
 2020-03-04,42,Somalia,0,0,SOM
 2020-03-04,42,South Africa,0,0,ZAF
+2020-03-04,42,South Sudan,0,0,SSD
 2020-03-04,42,Spain,222,2,ESP
 2020-03-04,42,Sri Lanka,1,0,LKA
 2020-03-04,42,Sudan,0,0,SDN
@@ -7780,6 +7908,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-04,42,Venezuela,0,0,VEN
 2020-03-04,42,Vietnam,16,0,VNM
 2020-03-04,42,West Bank and Gaza,0,0,
+2020-03-04,42,Western Sahara,0,0,
 2020-03-04,42,Zambia,0,0,ZMB
 2020-03-04,42,Zimbabwe,0,0,ZWE
 2020-03-05,43,Afghanistan,1,0,AFG
@@ -7926,6 +8055,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-05,43,Saint Lucia,0,0,LCA
 2020-03-05,43,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-05,43,San Marino,21,1,SMR
+2020-03-05,43,Sao Tome and Principe,0,0,STP
 2020-03-05,43,Saudi Arabia,5,0,SAU
 2020-03-05,43,Senegal,4,0,SEN
 2020-03-05,43,Serbia,0,0,SRB
@@ -7936,6 +8066,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-05,43,Slovenia,2,0,SVN
 2020-03-05,43,Somalia,0,0,SOM
 2020-03-05,43,South Africa,1,0,ZAF
+2020-03-05,43,South Sudan,0,0,SSD
 2020-03-05,43,Spain,259,3,ESP
 2020-03-05,43,Sri Lanka,1,0,LKA
 2020-03-05,43,Sudan,0,0,SDN
@@ -7961,6 +8092,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-05,43,Venezuela,0,0,VEN
 2020-03-05,43,Vietnam,16,0,VNM
 2020-03-05,43,West Bank and Gaza,4,0,
+2020-03-05,43,Western Sahara,0,0,
 2020-03-05,43,Zambia,0,0,ZMB
 2020-03-05,43,Zimbabwe,0,0,ZWE
 2020-03-06,44,Afghanistan,1,0,AFG
@@ -8107,6 +8239,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-06,44,Saint Lucia,0,0,LCA
 2020-03-06,44,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-06,44,San Marino,21,1,SMR
+2020-03-06,44,Sao Tome and Principe,0,0,STP
 2020-03-06,44,Saudi Arabia,5,0,SAU
 2020-03-06,44,Senegal,4,0,SEN
 2020-03-06,44,Serbia,1,0,SRB
@@ -8117,6 +8250,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-06,44,Slovenia,7,0,SVN
 2020-03-06,44,Somalia,0,0,SOM
 2020-03-06,44,South Africa,1,0,ZAF
+2020-03-06,44,South Sudan,0,0,SSD
 2020-03-06,44,Spain,400,5,ESP
 2020-03-06,44,Sri Lanka,1,0,LKA
 2020-03-06,44,Sudan,0,0,SDN
@@ -8142,6 +8276,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-06,44,Venezuela,0,0,VEN
 2020-03-06,44,Vietnam,16,0,VNM
 2020-03-06,44,West Bank and Gaza,7,0,
+2020-03-06,44,Western Sahara,0,0,
 2020-03-06,44,Zambia,0,0,ZMB
 2020-03-06,44,Zimbabwe,0,0,ZWE
 2020-03-07,45,Afghanistan,1,0,AFG
@@ -8288,6 +8423,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-07,45,Saint Lucia,0,0,LCA
 2020-03-07,45,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-07,45,San Marino,23,1,SMR
+2020-03-07,45,Sao Tome and Principe,0,0,STP
 2020-03-07,45,Saudi Arabia,5,0,SAU
 2020-03-07,45,Senegal,4,0,SEN
 2020-03-07,45,Serbia,1,0,SRB
@@ -8298,6 +8434,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-07,45,Slovenia,7,0,SVN
 2020-03-07,45,Somalia,0,0,SOM
 2020-03-07,45,South Africa,1,0,ZAF
+2020-03-07,45,South Sudan,0,0,SSD
 2020-03-07,45,Spain,500,10,ESP
 2020-03-07,45,Sri Lanka,1,0,LKA
 2020-03-07,45,Sudan,0,0,SDN
@@ -8323,6 +8460,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-07,45,Venezuela,0,0,VEN
 2020-03-07,45,Vietnam,18,0,VNM
 2020-03-07,45,West Bank and Gaza,16,0,
+2020-03-07,45,Western Sahara,0,0,
 2020-03-07,45,Zambia,0,0,ZMB
 2020-03-07,45,Zimbabwe,0,0,ZWE
 2020-03-08,46,Afghanistan,4,0,AFG
@@ -8469,6 +8607,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-08,46,Saint Lucia,0,0,LCA
 2020-03-08,46,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-08,46,San Marino,36,1,SMR
+2020-03-08,46,Sao Tome and Principe,0,0,STP
 2020-03-08,46,Saudi Arabia,11,0,SAU
 2020-03-08,46,Senegal,4,0,SEN
 2020-03-08,46,Serbia,1,0,SRB
@@ -8479,6 +8618,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-08,46,Slovenia,16,0,SVN
 2020-03-08,46,Somalia,0,0,SOM
 2020-03-08,46,South Africa,3,0,ZAF
+2020-03-08,46,South Sudan,0,0,SSD
 2020-03-08,46,Spain,673,17,ESP
 2020-03-08,46,Sri Lanka,1,0,LKA
 2020-03-08,46,Sudan,0,0,SDN
@@ -8504,6 +8644,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-08,46,Venezuela,0,0,VEN
 2020-03-08,46,Vietnam,30,0,VNM
 2020-03-08,46,West Bank and Gaza,16,0,
+2020-03-08,46,Western Sahara,0,0,
 2020-03-08,46,Zambia,0,0,ZMB
 2020-03-08,46,Zimbabwe,0,0,ZWE
 2020-03-09,47,Afghanistan,4,0,AFG
@@ -8650,6 +8791,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-09,47,Saint Lucia,0,0,LCA
 2020-03-09,47,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-09,47,San Marino,36,1,SMR
+2020-03-09,47,Sao Tome and Principe,0,0,STP
 2020-03-09,47,Saudi Arabia,15,0,SAU
 2020-03-09,47,Senegal,4,0,SEN
 2020-03-09,47,Serbia,1,0,SRB
@@ -8660,6 +8802,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-09,47,Slovenia,16,0,SVN
 2020-03-09,47,Somalia,0,0,SOM
 2020-03-09,47,South Africa,3,0,ZAF
+2020-03-09,47,South Sudan,0,0,SSD
 2020-03-09,47,Spain,1073,28,ESP
 2020-03-09,47,Sri Lanka,1,0,LKA
 2020-03-09,47,Sudan,0,0,SDN
@@ -8685,6 +8828,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-09,47,Venezuela,0,0,VEN
 2020-03-09,47,Vietnam,30,0,VNM
 2020-03-09,47,West Bank and Gaza,19,0,
+2020-03-09,47,Western Sahara,0,0,
 2020-03-09,47,Zambia,0,0,ZMB
 2020-03-09,47,Zimbabwe,0,0,ZWE
 2020-03-10,48,Afghanistan,5,0,AFG
@@ -8831,6 +8975,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-10,48,Saint Lucia,0,0,LCA
 2020-03-10,48,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-10,48,San Marino,51,2,SMR
+2020-03-10,48,Sao Tome and Principe,0,0,STP
 2020-03-10,48,Saudi Arabia,20,0,SAU
 2020-03-10,48,Senegal,4,0,SEN
 2020-03-10,48,Serbia,5,0,SRB
@@ -8841,6 +8986,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-10,48,Slovenia,31,0,SVN
 2020-03-10,48,Somalia,0,0,SOM
 2020-03-10,48,South Africa,7,0,ZAF
+2020-03-10,48,South Sudan,0,0,SSD
 2020-03-10,48,Spain,1695,35,ESP
 2020-03-10,48,Sri Lanka,1,0,LKA
 2020-03-10,48,Sudan,0,0,SDN
@@ -8866,6 +9012,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-10,48,Venezuela,0,0,VEN
 2020-03-10,48,Vietnam,31,0,VNM
 2020-03-10,48,West Bank and Gaza,26,0,
+2020-03-10,48,Western Sahara,0,0,
 2020-03-10,48,Zambia,0,0,ZMB
 2020-03-10,48,Zimbabwe,0,0,ZWE
 2020-03-11,49,Afghanistan,7,0,AFG
@@ -9012,6 +9159,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-11,49,Saint Lucia,0,0,LCA
 2020-03-11,49,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-11,49,San Marino,62,2,SMR
+2020-03-11,49,Sao Tome and Principe,0,0,STP
 2020-03-11,49,Saudi Arabia,21,0,SAU
 2020-03-11,49,Senegal,4,0,SEN
 2020-03-11,49,Serbia,12,0,SRB
@@ -9022,6 +9170,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-11,49,Slovenia,57,0,SVN
 2020-03-11,49,Somalia,0,0,SOM
 2020-03-11,49,South Africa,13,0,ZAF
+2020-03-11,49,South Sudan,0,0,SSD
 2020-03-11,49,Spain,2277,54,ESP
 2020-03-11,49,Sri Lanka,2,0,LKA
 2020-03-11,49,Sudan,0,0,SDN
@@ -9047,6 +9196,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-11,49,Venezuela,0,0,VEN
 2020-03-11,49,Vietnam,38,0,VNM
 2020-03-11,49,West Bank and Gaza,30,0,
+2020-03-11,49,Western Sahara,0,0,
 2020-03-11,49,Zambia,0,0,ZMB
 2020-03-11,49,Zimbabwe,0,0,ZWE
 2020-03-12,50,Afghanistan,7,0,AFG
@@ -9193,6 +9343,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-12,50,Saint Lucia,0,0,LCA
 2020-03-12,50,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-12,50,San Marino,69,3,SMR
+2020-03-12,50,Sao Tome and Principe,0,0,STP
 2020-03-12,50,Saudi Arabia,45,0,SAU
 2020-03-12,50,Senegal,4,0,SEN
 2020-03-12,50,Serbia,19,0,SRB
@@ -9203,6 +9354,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-12,50,Slovenia,89,0,SVN
 2020-03-12,50,Somalia,0,0,SOM
 2020-03-12,50,South Africa,17,0,ZAF
+2020-03-12,50,South Sudan,0,0,SSD
 2020-03-12,50,Spain,2277,55,ESP
 2020-03-12,50,Sri Lanka,2,0,LKA
 2020-03-12,50,Sudan,0,0,SDN
@@ -9228,6 +9380,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-12,50,Venezuela,0,0,VEN
 2020-03-12,50,Vietnam,39,0,VNM
 2020-03-12,50,West Bank and Gaza,30,0,
+2020-03-12,50,Western Sahara,0,0,
 2020-03-12,50,Zambia,0,0,ZMB
 2020-03-12,50,Zimbabwe,0,0,ZWE
 2020-03-13,51,Afghanistan,7,0,AFG
@@ -9374,6 +9527,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-13,51,Saint Lucia,0,0,LCA
 2020-03-13,51,Saint Vincent and the Grenadines,0,0,VCT
 2020-03-13,51,San Marino,80,5,SMR
+2020-03-13,51,Sao Tome and Principe,0,0,STP
 2020-03-13,51,Saudi Arabia,86,0,SAU
 2020-03-13,51,Senegal,10,0,SEN
 2020-03-13,51,Serbia,35,0,SRB
@@ -9384,6 +9538,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-13,51,Slovenia,141,0,SVN
 2020-03-13,51,Somalia,0,0,SOM
 2020-03-13,51,South Africa,24,0,ZAF
+2020-03-13,51,South Sudan,0,0,SSD
 2020-03-13,51,Spain,5232,133,ESP
 2020-03-13,51,Sri Lanka,6,0,LKA
 2020-03-13,51,Sudan,1,1,SDN
@@ -9409,6 +9564,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-13,51,Venezuela,0,0,VEN
 2020-03-13,51,Vietnam,47,0,VNM
 2020-03-13,51,West Bank and Gaza,31,0,
+2020-03-13,51,Western Sahara,0,0,
 2020-03-13,51,Zambia,0,0,ZMB
 2020-03-13,51,Zimbabwe,0,0,ZWE
 2020-03-14,52,Afghanistan,11,0,AFG
@@ -9555,6 +9711,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-14,52,Saint Lucia,1,0,LCA
 2020-03-14,52,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-14,52,San Marino,80,5,SMR
+2020-03-14,52,Sao Tome and Principe,0,0,STP
 2020-03-14,52,Saudi Arabia,103,0,SAU
 2020-03-14,52,Senegal,10,0,SEN
 2020-03-14,52,Serbia,46,0,SRB
@@ -9565,6 +9722,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-14,52,Slovenia,181,1,SVN
 2020-03-14,52,Somalia,0,0,SOM
 2020-03-14,52,South Africa,38,0,ZAF
+2020-03-14,52,South Sudan,0,0,SSD
 2020-03-14,52,Spain,6391,195,ESP
 2020-03-14,52,Sri Lanka,10,0,LKA
 2020-03-14,52,Sudan,1,1,SDN
@@ -9590,6 +9748,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-14,52,Venezuela,2,0,VEN
 2020-03-14,52,Vietnam,53,0,VNM
 2020-03-14,52,West Bank and Gaza,35,0,
+2020-03-14,52,Western Sahara,0,0,
 2020-03-14,52,Zambia,0,0,ZMB
 2020-03-14,52,Zimbabwe,0,0,ZWE
 2020-03-15,53,Afghanistan,16,0,AFG
@@ -9736,6 +9895,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-15,53,Saint Lucia,2,0,LCA
 2020-03-15,53,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-15,53,San Marino,101,5,SMR
+2020-03-15,53,Sao Tome and Principe,0,0,STP
 2020-03-15,53,Saudi Arabia,103,0,SAU
 2020-03-15,53,Senegal,24,0,SEN
 2020-03-15,53,Serbia,48,0,SRB
@@ -9746,6 +9906,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-15,53,Slovenia,219,1,SVN
 2020-03-15,53,Somalia,0,0,SOM
 2020-03-15,53,South Africa,51,0,ZAF
+2020-03-15,53,South Sudan,0,0,SSD
 2020-03-15,53,Spain,7798,289,ESP
 2020-03-15,53,Sri Lanka,18,0,LKA
 2020-03-15,53,Sudan,1,1,SDN
@@ -9771,6 +9932,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-15,53,Venezuela,10,0,VEN
 2020-03-15,53,Vietnam,56,0,VNM
 2020-03-15,53,West Bank and Gaza,38,0,
+2020-03-15,53,Western Sahara,0,0,
 2020-03-15,53,Zambia,0,0,ZMB
 2020-03-15,53,Zimbabwe,0,0,ZWE
 2020-03-16,54,Afghanistan,21,0,AFG
@@ -9917,6 +10079,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-16,54,Saint Lucia,2,0,LCA
 2020-03-16,54,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-16,54,San Marino,109,7,SMR
+2020-03-16,54,Sao Tome and Principe,0,0,STP
 2020-03-16,54,Saudi Arabia,118,0,SAU
 2020-03-16,54,Senegal,24,0,SEN
 2020-03-16,54,Serbia,55,0,SRB
@@ -9927,6 +10090,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-16,54,Slovenia,253,1,SVN
 2020-03-16,54,Somalia,1,0,SOM
 2020-03-16,54,South Africa,62,0,ZAF
+2020-03-16,54,South Sudan,0,0,SSD
 2020-03-16,54,Spain,9942,342,ESP
 2020-03-16,54,Sri Lanka,28,0,LKA
 2020-03-16,54,Sudan,1,1,SDN
@@ -9952,6 +10116,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-16,54,Venezuela,17,0,VEN
 2020-03-16,54,Vietnam,61,0,VNM
 2020-03-16,54,West Bank and Gaza,38,0,
+2020-03-16,54,Western Sahara,0,0,
 2020-03-16,54,Zambia,0,0,ZMB
 2020-03-16,54,Zimbabwe,0,0,ZWE
 2020-03-17,55,Afghanistan,22,0,AFG
@@ -10098,6 +10263,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-17,55,Saint Lucia,2,0,LCA
 2020-03-17,55,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-17,55,San Marino,109,7,SMR
+2020-03-17,55,Sao Tome and Principe,0,0,STP
 2020-03-17,55,Saudi Arabia,171,0,SAU
 2020-03-17,55,Senegal,26,0,SEN
 2020-03-17,55,Serbia,65,0,SRB
@@ -10108,6 +10274,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-17,55,Slovenia,275,1,SVN
 2020-03-17,55,Somalia,1,0,SOM
 2020-03-17,55,South Africa,62,0,ZAF
+2020-03-17,55,South Sudan,0,0,SSD
 2020-03-17,55,Spain,11748,533,ESP
 2020-03-17,55,Sri Lanka,44,0,LKA
 2020-03-17,55,Sudan,1,1,SDN
@@ -10133,6 +10300,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-17,55,Venezuela,33,0,VEN
 2020-03-17,55,Vietnam,66,0,VNM
 2020-03-17,55,West Bank and Gaza,39,0,
+2020-03-17,55,Western Sahara,0,0,
 2020-03-17,55,Zambia,0,0,ZMB
 2020-03-17,55,Zimbabwe,0,0,ZWE
 2020-03-18,56,Afghanistan,22,0,AFG
@@ -10279,6 +10447,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-18,56,Saint Lucia,2,0,LCA
 2020-03-18,56,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-18,56,San Marino,119,11,SMR
+2020-03-18,56,Sao Tome and Principe,0,0,STP
 2020-03-18,56,Saudi Arabia,171,0,SAU
 2020-03-18,56,Senegal,31,0,SEN
 2020-03-18,56,Serbia,83,0,SRB
@@ -10289,6 +10458,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-18,56,Slovenia,275,1,SVN
 2020-03-18,56,Somalia,1,0,SOM
 2020-03-18,56,South Africa,116,0,ZAF
+2020-03-18,56,South Sudan,0,0,SSD
 2020-03-18,56,Spain,13910,623,ESP
 2020-03-18,56,Sri Lanka,51,0,LKA
 2020-03-18,56,Sudan,2,1,SDN
@@ -10314,6 +10484,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-18,56,Venezuela,36,0,VEN
 2020-03-18,56,Vietnam,75,0,VNM
 2020-03-18,56,West Bank and Gaza,41,0,
+2020-03-18,56,Western Sahara,0,0,
 2020-03-18,56,Zambia,2,0,ZMB
 2020-03-18,56,Zimbabwe,0,0,ZWE
 2020-03-19,57,Afghanistan,22,0,AFG
@@ -10460,6 +10631,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-19,57,Saint Lucia,2,0,LCA
 2020-03-19,57,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-19,57,San Marino,119,11,SMR
+2020-03-19,57,Sao Tome and Principe,0,0,STP
 2020-03-19,57,Saudi Arabia,274,0,SAU
 2020-03-19,57,Senegal,31,0,SEN
 2020-03-19,57,Serbia,103,0,SRB
@@ -10470,6 +10642,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-19,57,Slovenia,286,1,SVN
 2020-03-19,57,Somalia,1,0,SOM
 2020-03-19,57,South Africa,150,0,ZAF
+2020-03-19,57,South Sudan,0,0,SSD
 2020-03-19,57,Spain,17963,830,ESP
 2020-03-19,57,Sri Lanka,60,0,LKA
 2020-03-19,57,Sudan,2,1,SDN
@@ -10495,6 +10668,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-19,57,Venezuela,42,0,VEN
 2020-03-19,57,Vietnam,85,0,VNM
 2020-03-19,57,West Bank and Gaza,44,0,
+2020-03-19,57,Western Sahara,0,0,
 2020-03-19,57,Zambia,2,0,ZMB
 2020-03-19,57,Zimbabwe,0,0,ZWE
 2020-03-20,58,Afghanistan,24,0,AFG
@@ -10641,6 +10815,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-20,58,Saint Lucia,2,0,LCA
 2020-03-20,58,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-20,58,San Marino,144,14,SMR
+2020-03-20,58,Sao Tome and Principe,0,0,STP
 2020-03-20,58,Saudi Arabia,344,0,SAU
 2020-03-20,58,Senegal,38,0,SEN
 2020-03-20,58,Serbia,135,1,SRB
@@ -10651,6 +10826,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-20,58,Slovenia,341,1,SVN
 2020-03-20,58,Somalia,1,0,SOM
 2020-03-20,58,South Africa,202,0,ZAF
+2020-03-20,58,South Sudan,0,0,SSD
 2020-03-20,58,Spain,20410,1043,ESP
 2020-03-20,58,Sri Lanka,73,0,LKA
 2020-03-20,58,Sudan,2,1,SDN
@@ -10676,6 +10852,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-20,58,Venezuela,42,0,VEN
 2020-03-20,58,Vietnam,91,0,VNM
 2020-03-20,58,West Bank and Gaza,47,0,
+2020-03-20,58,Western Sahara,0,0,
 2020-03-20,58,Zambia,2,0,ZMB
 2020-03-20,58,Zimbabwe,1,0,ZWE
 2020-03-21,59,Afghanistan,24,0,AFG
@@ -10822,6 +10999,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-21,59,Saint Lucia,2,0,LCA
 2020-03-21,59,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-21,59,San Marino,144,20,SMR
+2020-03-21,59,Sao Tome and Principe,0,0,STP
 2020-03-21,59,Saudi Arabia,392,0,SAU
 2020-03-21,59,Senegal,47,0,SEN
 2020-03-21,59,Serbia,171,1,SRB
@@ -10832,6 +11010,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-21,59,Slovenia,383,1,SVN
 2020-03-21,59,Somalia,1,0,SOM
 2020-03-21,59,South Africa,240,0,ZAF
+2020-03-21,59,South Sudan,0,0,SSD
 2020-03-21,59,Spain,25374,1375,ESP
 2020-03-21,59,Sri Lanka,77,0,LKA
 2020-03-21,59,Sudan,2,1,SDN
@@ -10857,6 +11036,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-21,59,Venezuela,70,0,VEN
 2020-03-21,59,Vietnam,94,0,VNM
 2020-03-21,59,West Bank and Gaza,48,0,
+2020-03-21,59,Western Sahara,0,0,
 2020-03-21,59,Zambia,2,0,ZMB
 2020-03-21,59,Zimbabwe,3,0,ZWE
 2020-03-22,60,Afghanistan,40,1,AFG
@@ -11003,6 +11183,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-22,60,Saint Lucia,2,0,LCA
 2020-03-22,60,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-22,60,San Marino,175,20,SMR
+2020-03-22,60,Sao Tome and Principe,0,0,STP
 2020-03-22,60,Saudi Arabia,511,0,SAU
 2020-03-22,60,Senegal,67,0,SEN
 2020-03-22,60,Serbia,222,2,SRB
@@ -11013,6 +11194,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-22,60,Slovenia,414,2,SVN
 2020-03-22,60,Somalia,1,0,SOM
 2020-03-22,60,South Africa,274,0,ZAF
+2020-03-22,60,South Sudan,0,0,SSD
 2020-03-22,60,Spain,28768,1772,ESP
 2020-03-22,60,Sri Lanka,82,0,LKA
 2020-03-22,60,Sudan,2,1,SDN
@@ -11038,6 +11220,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-22,60,Venezuela,70,0,VEN
 2020-03-22,60,Vietnam,113,0,VNM
 2020-03-22,60,West Bank and Gaza,52,0,
+2020-03-22,60,Western Sahara,0,0,
 2020-03-22,60,Zambia,3,0,ZMB
 2020-03-22,60,Zimbabwe,3,0,ZWE
 2020-03-23,61,Afghanistan,40,1,AFG
@@ -11184,6 +11367,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-23,61,Saint Lucia,3,0,LCA
 2020-03-23,61,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-23,61,San Marino,187,20,SMR
+2020-03-23,61,Sao Tome and Principe,0,0,STP
 2020-03-23,61,Saudi Arabia,562,0,SAU
 2020-03-23,61,Senegal,79,0,SEN
 2020-03-23,61,Serbia,249,3,SRB
@@ -11194,6 +11378,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-23,61,Slovenia,442,3,SVN
 2020-03-23,61,Somalia,1,0,SOM
 2020-03-23,61,South Africa,402,0,ZAF
+2020-03-23,61,South Sudan,0,0,SSD
 2020-03-23,61,Spain,35136,2311,ESP
 2020-03-23,61,Sri Lanka,97,0,LKA
 2020-03-23,61,Sudan,2,1,SDN
@@ -11219,6 +11404,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-23,61,Venezuela,77,0,VEN
 2020-03-23,61,Vietnam,123,0,VNM
 2020-03-23,61,West Bank and Gaza,59,0,
+2020-03-23,61,Western Sahara,0,0,
 2020-03-23,61,Zambia,3,0,ZMB
 2020-03-23,61,Zimbabwe,3,1,ZWE
 2020-03-24,62,Afghanistan,74,1,AFG
@@ -11365,6 +11551,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-24,62,Saint Lucia,3,0,LCA
 2020-03-24,62,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-24,62,San Marino,187,21,SMR
+2020-03-24,62,Sao Tome and Principe,0,0,STP
 2020-03-24,62,Saudi Arabia,767,1,SAU
 2020-03-24,62,Senegal,86,0,SEN
 2020-03-24,62,Serbia,303,3,SRB
@@ -11375,6 +11562,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-24,62,Slovenia,480,4,SVN
 2020-03-24,62,Somalia,1,0,SOM
 2020-03-24,62,South Africa,554,0,ZAF
+2020-03-24,62,South Sudan,0,0,SSD
 2020-03-24,62,Spain,39885,2808,ESP
 2020-03-24,62,Sri Lanka,102,0,LKA
 2020-03-24,62,Sudan,3,1,SDN
@@ -11400,6 +11588,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-24,62,Venezuela,84,0,VEN
 2020-03-24,62,Vietnam,134,0,VNM
 2020-03-24,62,West Bank and Gaza,59,0,
+2020-03-24,62,Western Sahara,0,0,
 2020-03-24,62,Zambia,3,0,ZMB
 2020-03-24,62,Zimbabwe,3,1,ZWE
 2020-03-25,63,Afghanistan,84,2,AFG
@@ -11546,6 +11735,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-25,63,Saint Lucia,3,0,LCA
 2020-03-25,63,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-25,63,San Marino,208,21,SMR
+2020-03-25,63,Sao Tome and Principe,0,0,STP
 2020-03-25,63,Saudi Arabia,900,2,SAU
 2020-03-25,63,Senegal,99,0,SEN
 2020-03-25,63,Serbia,384,4,SRB
@@ -11556,6 +11746,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-25,63,Slovenia,528,5,SVN
 2020-03-25,63,Somalia,1,0,SOM
 2020-03-25,63,South Africa,709,0,ZAF
+2020-03-25,63,South Sudan,0,0,SSD
 2020-03-25,63,Spain,49515,3647,ESP
 2020-03-25,63,Sri Lanka,102,0,LKA
 2020-03-25,63,Sudan,3,1,SDN
@@ -11581,6 +11772,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-25,63,Venezuela,91,0,VEN
 2020-03-25,63,Vietnam,141,0,VNM
 2020-03-25,63,West Bank and Gaza,59,0,
+2020-03-25,63,Western Sahara,0,0,
 2020-03-25,63,Zambia,12,0,ZMB
 2020-03-25,63,Zimbabwe,3,1,ZWE
 2020-03-26,64,Afghanistan,94,4,AFG
@@ -11727,6 +11919,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-26,64,Saint Lucia,3,0,LCA
 2020-03-26,64,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-26,64,San Marino,208,21,SMR
+2020-03-26,64,Sao Tome and Principe,0,0,STP
 2020-03-26,64,Saudi Arabia,1012,3,SAU
 2020-03-26,64,Senegal,105,0,SEN
 2020-03-26,64,Serbia,384,1,SRB
@@ -11737,6 +11930,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-26,64,Slovenia,562,6,SVN
 2020-03-26,64,Somalia,2,0,SOM
 2020-03-26,64,South Africa,927,0,ZAF
+2020-03-26,64,South Sudan,0,0,SSD
 2020-03-26,64,Spain,57786,4365,ESP
 2020-03-26,64,Sri Lanka,106,0,LKA
 2020-03-26,64,Sudan,3,1,SDN
@@ -11762,6 +11956,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-26,64,Venezuela,107,0,VEN
 2020-03-26,64,Vietnam,153,0,VNM
 2020-03-26,64,West Bank and Gaza,84,1,
+2020-03-26,64,Western Sahara,0,0,
 2020-03-26,64,Zambia,16,0,ZMB
 2020-03-26,64,Zimbabwe,3,1,ZWE
 2020-03-27,65,Afghanistan,110,4,AFG
@@ -11908,6 +12103,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-27,65,Saint Lucia,3,0,LCA
 2020-03-27,65,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-27,65,San Marino,223,21,SMR
+2020-03-27,65,Sao Tome and Principe,0,0,STP
 2020-03-27,65,Saudi Arabia,1104,3,SAU
 2020-03-27,65,Senegal,119,0,SEN
 2020-03-27,65,Serbia,457,1,SRB
@@ -11918,6 +12114,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-27,65,Slovenia,632,9,SVN
 2020-03-27,65,Somalia,3,0,SOM
 2020-03-27,65,South Africa,1170,1,ZAF
+2020-03-27,65,South Sudan,0,0,SSD
 2020-03-27,65,Spain,65719,5138,ESP
 2020-03-27,65,Sri Lanka,106,0,LKA
 2020-03-27,65,Sudan,3,1,SDN
@@ -11943,6 +12140,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-27,65,Venezuela,107,1,VEN
 2020-03-27,65,Vietnam,163,0,VNM
 2020-03-27,65,West Bank and Gaza,91,1,
+2020-03-27,65,Western Sahara,0,0,
 2020-03-27,65,Zambia,22,0,ZMB
 2020-03-27,65,Zimbabwe,5,1,ZWE
 2020-03-28,66,Afghanistan,110,4,AFG
@@ -12089,6 +12287,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-28,66,Saint Lucia,3,0,LCA
 2020-03-28,66,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-28,66,San Marino,224,22,SMR
+2020-03-28,66,Sao Tome and Principe,0,0,STP
 2020-03-28,66,Saudi Arabia,1203,4,SAU
 2020-03-28,66,Senegal,130,0,SEN
 2020-03-28,66,Serbia,659,10,SRB
@@ -12099,6 +12298,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-28,66,Slovenia,684,9,SVN
 2020-03-28,66,Somalia,3,0,SOM
 2020-03-28,66,South Africa,1187,1,ZAF
+2020-03-28,66,South Sudan,0,0,SSD
 2020-03-28,66,Spain,73235,5982,ESP
 2020-03-28,66,Sri Lanka,113,1,LKA
 2020-03-28,66,Sudan,5,1,SDN
@@ -12124,6 +12324,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-28,66,Venezuela,119,2,VEN
 2020-03-28,66,Vietnam,174,0,VNM
 2020-03-28,66,West Bank and Gaza,98,1,
+2020-03-28,66,Western Sahara,0,0,
 2020-03-28,66,Zambia,28,0,ZMB
 2020-03-28,66,Zimbabwe,7,1,ZWE
 2020-03-29,67,Afghanistan,120,4,AFG
@@ -12270,6 +12471,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-29,67,Saint Lucia,9,0,LCA
 2020-03-29,67,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-29,67,San Marino,224,22,SMR
+2020-03-29,67,Sao Tome and Principe,0,0,STP
 2020-03-29,67,Saudi Arabia,1299,8,SAU
 2020-03-29,67,Senegal,142,0,SEN
 2020-03-29,67,Serbia,741,13,SRB
@@ -12280,6 +12482,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-29,67,Slovenia,730,11,SVN
 2020-03-29,67,Somalia,3,0,SOM
 2020-03-29,67,South Africa,1280,2,ZAF
+2020-03-29,67,South Sudan,0,0,SSD
 2020-03-29,67,Spain,80110,6803,ESP
 2020-03-29,67,Sri Lanka,117,1,LKA
 2020-03-29,67,Sudan,6,1,SDN
@@ -12305,6 +12508,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-29,67,Venezuela,119,2,VEN
 2020-03-29,67,Vietnam,188,0,VNM
 2020-03-29,67,West Bank and Gaza,109,1,
+2020-03-29,67,Western Sahara,0,0,
 2020-03-29,67,Zambia,29,0,ZMB
 2020-03-29,67,Zimbabwe,7,1,ZWE
 2020-03-30,68,Afghanistan,170,4,AFG
@@ -12451,6 +12655,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-30,68,Saint Lucia,9,0,LCA
 2020-03-30,68,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-30,68,San Marino,230,25,SMR
+2020-03-30,68,Sao Tome and Principe,0,0,STP
 2020-03-30,68,Saudi Arabia,1453,8,SAU
 2020-03-30,68,Senegal,162,0,SEN
 2020-03-30,68,Serbia,785,16,SRB
@@ -12461,6 +12666,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-30,68,Slovenia,756,11,SVN
 2020-03-30,68,Somalia,3,0,SOM
 2020-03-30,68,South Africa,1326,3,ZAF
+2020-03-30,68,South Sudan,0,0,SSD
 2020-03-30,68,Spain,87956,7716,ESP
 2020-03-30,68,Sri Lanka,122,2,LKA
 2020-03-30,68,Sudan,6,2,SDN
@@ -12486,6 +12692,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-30,68,Venezuela,135,3,VEN
 2020-03-30,68,Vietnam,203,0,VNM
 2020-03-30,68,West Bank and Gaza,116,1,
+2020-03-30,68,Western Sahara,0,0,
 2020-03-30,68,Zambia,35,0,ZMB
 2020-03-30,68,Zimbabwe,7,1,ZWE
 2020-03-31,69,Afghanistan,174,4,AFG
@@ -12632,6 +12839,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-31,69,Saint Lucia,13,0,LCA
 2020-03-31,69,Saint Vincent and the Grenadines,1,0,VCT
 2020-03-31,69,San Marino,236,26,SMR
+2020-03-31,69,Sao Tome and Principe,0,0,STP
 2020-03-31,69,Saudi Arabia,1563,10,SAU
 2020-03-31,69,Senegal,175,0,SEN
 2020-03-31,69,Serbia,900,16,SRB
@@ -12642,6 +12850,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-31,69,Slovenia,802,15,SVN
 2020-03-31,69,Somalia,5,0,SOM
 2020-03-31,69,South Africa,1353,5,ZAF
+2020-03-31,69,South Sudan,0,0,SSD
 2020-03-31,69,Spain,95923,8464,ESP
 2020-03-31,69,Sri Lanka,143,2,LKA
 2020-03-31,69,Sudan,7,2,SDN
@@ -12667,6 +12876,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-03-31,69,Venezuela,135,3,VEN
 2020-03-31,69,Vietnam,212,0,VNM
 2020-03-31,69,West Bank and Gaza,119,1,
+2020-03-31,69,Western Sahara,0,0,
 2020-03-31,69,Zambia,35,0,ZMB
 2020-03-31,69,Zimbabwe,8,1,ZWE
 2020-04-01,70,Afghanistan,237,4,AFG
@@ -12813,6 +13023,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-04-01,70,Saint Lucia,13,0,LCA
 2020-04-01,70,Saint Vincent and the Grenadines,1,0,VCT
 2020-04-01,70,San Marino,236,26,SMR
+2020-04-01,70,Sao Tome and Principe,0,0,STP
 2020-04-01,70,Saudi Arabia,1720,16,SAU
 2020-04-01,70,Senegal,190,1,SEN
 2020-04-01,70,Serbia,1060,28,SRB
@@ -12823,6 +13034,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-04-01,70,Slovenia,841,15,SVN
 2020-04-01,70,Somalia,5,0,SOM
 2020-04-01,70,South Africa,1380,5,ZAF
+2020-04-01,70,South Sudan,0,0,SSD
 2020-04-01,70,Spain,104118,9387,ESP
 2020-04-01,70,Sri Lanka,146,3,LKA
 2020-04-01,70,Sudan,7,2,SDN
@@ -12848,6 +13060,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-04-01,70,Venezuela,143,3,VEN
 2020-04-01,70,Vietnam,218,0,VNM
 2020-04-01,70,West Bank and Gaza,134,1,
+2020-04-01,70,Western Sahara,0,0,
 2020-04-01,70,Zambia,36,0,ZMB
 2020-04-01,70,Zimbabwe,8,1,ZWE
 2020-04-02,71,Afghanistan,273,6,AFG
@@ -12994,6 +13207,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-04-02,71,Saint Lucia,13,0,LCA
 2020-04-02,71,Saint Vincent and the Grenadines,2,0,VCT
 2020-04-02,71,San Marino,245,30,SMR
+2020-04-02,71,Sao Tome and Principe,0,0,STP
 2020-04-02,71,Saudi Arabia,1885,21,SAU
 2020-04-02,71,Senegal,195,1,SEN
 2020-04-02,71,Serbia,1171,31,SRB
@@ -13004,6 +13218,7 @@ Date,Day,Country,Cases,Deaths,Code
 2020-04-02,71,Slovenia,897,17,SVN
 2020-04-02,71,Somalia,5,0,SOM
 2020-04-02,71,South Africa,1462,5,ZAF
+2020-04-02,71,South Sudan,0,0,SSD
 2020-04-02,71,Spain,112065,10348,ESP
 2020-04-02,71,Sri Lanka,151,4,LKA
 2020-04-02,71,Sudan,8,2,SDN
@@ -13029,5 +13244,742 @@ Date,Day,Country,Cases,Deaths,Code
 2020-04-02,71,Venezuela,146,5,VEN
 2020-04-02,71,Vietnam,233,0,VNM
 2020-04-02,71,West Bank and Gaza,161,1,
+2020-04-02,71,Western Sahara,0,0,
 2020-04-02,71,Zambia,39,1,ZMB
 2020-04-02,71,Zimbabwe,9,1,ZWE
+2020-04-03,72,Afghanistan,281,6,AFG
+2020-04-03,72,Albania,304,17,ALB
+2020-04-03,72,Algeria,1171,105,DZA
+2020-04-03,72,Andorra,439,16,AND
+2020-04-03,72,Angola,8,2,AGO
+2020-04-03,72,Antigua and Barbuda,15,0,ATG
+2020-04-03,72,Argentina,1265,39,ARG
+2020-04-03,72,Armenia,736,7,ARM
+2020-04-03,72,Australia,5330,28,AUS
+2020-04-03,72,Austria,11524,168,AUT
+2020-04-03,72,Azerbaijan,443,5,AZE
+2020-04-03,72,Bahamas,24,1,
+2020-04-03,72,Bahrain,672,4,BHR
+2020-04-03,72,Bangladesh,61,6,BGD
+2020-04-03,72,Barbados,51,0,BRB
+2020-04-03,72,Belarus,351,4,BLR
+2020-04-03,72,Belgium,16770,1143,BEL
+2020-04-03,72,Belize,4,0,BLZ
+2020-04-03,72,Benin,16,0,BEN
+2020-04-03,72,Bhutan,5,0,BTN
+2020-04-03,72,Bolivia,132,9,BOL
+2020-04-03,72,Bosnia and Herzegovina,579,17,BIH
+2020-04-03,72,Botswana,4,1,BWA
+2020-04-03,72,Brazil,9056,359,BRA
+2020-04-03,72,Brunei,134,1,BRN
+2020-04-03,72,Bulgaria,485,14,BGR
+2020-04-03,72,Burkina Faso,302,16,BFA
+2020-04-03,72,Burma,20,1,MMR
+2020-04-03,72,Burundi,3,0,BDI
+2020-04-03,72,Cabo Verde,6,1,CPV
+2020-04-03,72,Cambodia,114,0,KHM
+2020-04-03,72,Cameroon,509,8,CMR
+2020-04-03,72,Canada,12437,179,CAN
+2020-04-03,72,Central African Republic,8,0,CAF
+2020-04-03,72,Chad,8,0,TCD
+2020-04-03,72,Chile,3737,22,CHL
+2020-04-03,72,China,82511,3326,CHN
+2020-04-03,72,Colombia,1267,25,COL
+2020-04-03,72,Congo (Brazzaville),22,2,COG
+2020-04-03,72,Congo (Kinshasa),134,13,COD
+2020-04-03,72,Costa Rica,416,2,CRI
+2020-04-03,72,Cote d'Ivoire,218,1,CIV
+2020-04-03,72,Croatia,1079,8,HRV
+2020-04-03,72,Cuba,269,6,CUB
+2020-04-03,72,Cyprus,396,11,CYP
+2020-04-03,72,Czechia,4091,53,CZE
+2020-04-03,72,Denmark,3946,139,DNK
+2020-04-03,72,Diamond Princess,712,11,
+2020-04-03,72,Djibouti,49,0,DJI
+2020-04-03,72,Dominica,12,0,DMA
+2020-04-03,72,Dominican Republic,1488,68,DOM
+2020-04-03,72,Ecuador,3368,145,ECU
+2020-04-03,72,Egypt,985,66,EGY
+2020-04-03,72,El Salvador,46,2,SLV
+2020-04-03,72,Equatorial Guinea,16,0,GNQ
+2020-04-03,72,Eritrea,22,0,ERI
+2020-04-03,72,Estonia,961,12,EST
+2020-04-03,72,Eswatini,9,0,SWZ
+2020-04-03,72,Ethiopia,35,0,ETH
+2020-04-03,72,Fiji,7,0,FJI
+2020-04-03,72,Finland,1615,20,FIN
+2020-04-03,72,France,65202,6520,FRA
+2020-04-03,72,Gabon,21,1,GAB
+2020-04-03,72,Gambia,4,1,GMB
+2020-04-03,72,Georgia,155,0,GEO
+2020-04-03,72,Germany,91159,1275,DEU
+2020-04-03,72,Ghana,205,5,GHA
+2020-04-03,72,Greece,1613,63,GRC
+2020-04-03,72,Grenada,12,0,GRD
+2020-04-03,72,Guatemala,50,1,GTM
+2020-04-03,72,Guinea,73,0,GIN
+2020-04-03,72,Guinea-Bissau,15,0,GNB
+2020-04-03,72,Guyana,23,4,GUY
+2020-04-03,72,Haiti,18,0,HTI
+2020-04-03,72,Holy See,7,0,
+2020-04-03,72,Honduras,222,15,HND
+2020-04-03,72,Hungary,623,26,HUN
+2020-04-03,72,Iceland,1364,4,ISL
+2020-04-03,72,India,2567,72,IND
+2020-04-03,72,Indonesia,1986,181,IDN
+2020-04-03,72,Iran,53183,3294,IRN
+2020-04-03,72,Iraq,820,54,IRQ
+2020-04-03,72,Ireland,4273,120,IRL
+2020-04-03,72,Israel,7428,40,ISR
+2020-04-03,72,Italy,119827,14681,ITA
+2020-04-03,72,Jamaica,47,3,JAM
+2020-04-03,72,Japan,2617,63,JPN
+2020-04-03,72,Jordan,310,5,JOR
+2020-04-03,72,Kazakhstan,464,6,KAZ
+2020-04-03,72,Kenya,122,4,KEN
+2020-04-03,72,"Korea, South",10062,174,KOR
+2020-04-03,72,Kosovo,126,1,KSV
+2020-04-03,72,Kuwait,417,0,KWT
+2020-04-03,72,Kyrgyzstan,130,1,KGZ
+2020-04-03,72,Laos,10,0,LAO
+2020-04-03,72,Latvia,493,1,LVA
+2020-04-03,72,Lebanon,508,17,LBN
+2020-04-03,72,Liberia,7,0,LBR
+2020-04-03,72,Libya,11,1,LBY
+2020-04-03,72,Liechtenstein,75,0,LIE
+2020-04-03,72,Lithuania,696,9,LTU
+2020-04-03,72,Luxembourg,2612,31,LUX
+2020-04-03,72,MS Zaandam,9,2,
+2020-04-03,72,Madagascar,70,0,MDG
+2020-04-03,72,Malawi,3,0,MWI
+2020-04-03,72,Malaysia,3333,53,MYS
+2020-04-03,72,Maldives,19,0,MDV
+2020-04-03,72,Mali,39,3,MLI
+2020-04-03,72,Malta,202,0,MLT
+2020-04-03,72,Mauritania,6,1,MRT
+2020-04-03,72,Mauritius,186,7,MUS
+2020-04-03,72,Mexico,1510,50,MEX
+2020-04-03,72,Moldova,591,8,MDA
+2020-04-03,72,Monaco,64,1,MCO
+2020-04-03,72,Mongolia,14,0,MNG
+2020-04-03,72,Montenegro,174,2,MNE
+2020-04-03,72,Morocco,791,48,MAR
+2020-04-03,72,Mozambique,10,0,MOZ
+2020-04-03,72,Namibia,14,0,NAM
+2020-04-03,72,Nepal,6,0,NPL
+2020-04-03,72,Netherlands,15821,1490,NLD
+2020-04-03,72,New Zealand,868,1,NZL
+2020-04-03,72,Nicaragua,5,1,NIC
+2020-04-03,72,Niger,120,5,NER
+2020-04-03,72,Nigeria,210,4,NGA
+2020-04-03,72,North Macedonia,430,12,
+2020-04-03,72,Norway,5370,59,NOR
+2020-04-03,72,Oman,252,1,OMN
+2020-04-03,72,Pakistan,2686,40,PAK
+2020-04-03,72,Panama,1475,37,PAN
+2020-04-03,72,Papua New Guinea,1,0,PNG
+2020-04-03,72,Paraguay,92,3,PRY
+2020-04-03,72,Peru,1595,61,PER
+2020-04-03,72,Philippines,3018,136,PHL
+2020-04-03,72,Poland,3383,71,POL
+2020-04-03,72,Portugal,9886,246,PRT
+2020-04-03,72,Qatar,1075,3,QAT
+2020-04-03,72,Romania,3183,133,ROU
+2020-04-03,72,Russia,4149,34,RUS
+2020-04-03,72,Rwanda,89,0,RWA
+2020-04-03,72,Saint Kitts and Nevis,9,0,KNA
+2020-04-03,72,Saint Lucia,13,0,LCA
+2020-04-03,72,Saint Vincent and the Grenadines,3,0,VCT
+2020-04-03,72,San Marino,245,30,SMR
+2020-04-03,72,Sao Tome and Principe,0,0,STP
+2020-04-03,72,Saudi Arabia,2039,25,SAU
+2020-04-03,72,Senegal,207,1,SEN
+2020-04-03,72,Serbia,1476,39,SRB
+2020-04-03,72,Seychelles,10,0,SYC
+2020-04-03,72,Sierra Leone,2,0,SLE
+2020-04-03,72,Singapore,1114,5,SGP
+2020-04-03,72,Slovakia,450,1,SVK
+2020-04-03,72,Slovenia,934,20,SVN
+2020-04-03,72,Somalia,7,0,SOM
+2020-04-03,72,South Africa,1505,9,ZAF
+2020-04-03,72,South Sudan,0,0,SSD
+2020-04-03,72,Spain,119199,11198,ESP
+2020-04-03,72,Sri Lanka,159,4,LKA
+2020-04-03,72,Sudan,10,2,SDN
+2020-04-03,72,Suriname,10,1,SUR
+2020-04-03,72,Sweden,6131,358,SWE
+2020-04-03,72,Switzerland,19606,591,CHE
+2020-04-03,72,Syria,16,2,SYR
+2020-04-03,72,Taiwan*,348,5,TWN
+2020-04-03,72,Tanzania,20,1,TZA
+2020-04-03,72,Thailand,1978,19,THA
+2020-04-03,72,Timor-Leste,1,0,TLS
+2020-04-03,72,Togo,40,3,TGO
+2020-04-03,72,Trinidad and Tobago,98,6,TTO
+2020-04-03,72,Tunisia,495,18,TUN
+2020-04-03,72,Turkey,20921,425,TUR
+2020-04-03,72,US,275586,7087,USA
+2020-04-03,72,Uganda,48,0,UGA
+2020-04-03,72,Ukraine,1072,27,UKR
+2020-04-03,72,United Arab Emirates,1264,9,ARE
+2020-04-03,72,United Kingdom,38689,3611,GBR
+2020-04-03,72,Uruguay,369,4,URY
+2020-04-03,72,Uzbekistan,227,2,UZB
+2020-04-03,72,Venezuela,153,7,VEN
+2020-04-03,72,Vietnam,237,0,VNM
+2020-04-03,72,West Bank and Gaza,194,1,
+2020-04-03,72,Western Sahara,0,0,
+2020-04-03,72,Zambia,39,1,ZMB
+2020-04-03,72,Zimbabwe,9,1,ZWE
+2020-04-04,73,Afghanistan,299,7,AFG
+2020-04-04,73,Albania,333,20,ALB
+2020-04-04,73,Algeria,1251,130,DZA
+2020-04-04,73,Andorra,466,17,AND
+2020-04-04,73,Angola,10,2,AGO
+2020-04-04,73,Antigua and Barbuda,15,0,ATG
+2020-04-04,73,Argentina,1451,43,ARG
+2020-04-04,73,Armenia,770,7,ARM
+2020-04-04,73,Australia,5550,30,AUS
+2020-04-04,73,Austria,11781,186,AUT
+2020-04-04,73,Azerbaijan,521,5,AZE
+2020-04-04,73,Bahamas,28,4,
+2020-04-04,73,Bahrain,688,4,BHR
+2020-04-04,73,Bangladesh,70,8,BGD
+2020-04-04,73,Barbados,52,0,BRB
+2020-04-04,73,Belarus,440,5,BLR
+2020-04-04,73,Belgium,18431,1283,BEL
+2020-04-04,73,Belize,4,0,BLZ
+2020-04-04,73,Benin,16,0,BEN
+2020-04-04,73,Bhutan,5,0,BTN
+2020-04-04,73,Bolivia,139,10,BOL
+2020-04-04,73,Bosnia and Herzegovina,624,21,BIH
+2020-04-04,73,Botswana,4,1,BWA
+2020-04-04,73,Brazil,10360,445,BRA
+2020-04-04,73,Brunei,135,1,BRN
+2020-04-04,73,Bulgaria,503,17,BGR
+2020-04-04,73,Burkina Faso,318,16,BFA
+2020-04-04,73,Burma,21,1,MMR
+2020-04-04,73,Burundi,3,0,BDI
+2020-04-04,73,Cabo Verde,7,1,CPV
+2020-04-04,73,Cambodia,114,0,KHM
+2020-04-04,73,Cameroon,555,9,CMR
+2020-04-04,73,Canada,12978,218,CAN
+2020-04-04,73,Central African Republic,8,0,CAF
+2020-04-04,73,Chad,9,0,TCD
+2020-04-04,73,Chile,4161,27,CHL
+2020-04-04,73,China,82543,3330,CHN
+2020-04-04,73,Colombia,1406,32,COL
+2020-04-04,73,Congo (Brazzaville),22,2,COG
+2020-04-04,73,Congo (Kinshasa),154,18,COD
+2020-04-04,73,Costa Rica,435,2,CRI
+2020-04-04,73,Cote d'Ivoire,245,1,CIV
+2020-04-04,73,Croatia,1126,12,HRV
+2020-04-04,73,Cuba,288,6,CUB
+2020-04-04,73,Cyprus,426,11,CYP
+2020-04-04,73,Czechia,4472,59,CZE
+2020-04-04,73,Denmark,4269,161,DNK
+2020-04-04,73,Diamond Princess,712,11,
+2020-04-04,73,Djibouti,50,0,DJI
+2020-04-04,73,Dominica,14,0,DMA
+2020-04-04,73,Dominican Republic,1488,68,DOM
+2020-04-04,73,Ecuador,3465,172,ECU
+2020-04-04,73,Egypt,1070,71,EGY
+2020-04-04,73,El Salvador,56,3,SLV
+2020-04-04,73,Equatorial Guinea,16,0,GNQ
+2020-04-04,73,Eritrea,29,0,ERI
+2020-04-04,73,Estonia,1039,13,EST
+2020-04-04,73,Eswatini,9,0,SWZ
+2020-04-04,73,Ethiopia,38,0,ETH
+2020-04-04,73,Fiji,12,0,FJI
+2020-04-04,73,Finland,1882,25,FIN
+2020-04-04,73,France,90848,7574,FRA
+2020-04-04,73,Gabon,21,1,GAB
+2020-04-04,73,Gambia,4,1,GMB
+2020-04-04,73,Georgia,162,1,GEO
+2020-04-04,73,Germany,96092,1444,DEU
+2020-04-04,73,Ghana,205,5,GHA
+2020-04-04,73,Greece,1673,68,GRC
+2020-04-04,73,Grenada,12,0,GRD
+2020-04-04,73,Guatemala,61,2,GTM
+2020-04-04,73,Guinea,111,0,GIN
+2020-04-04,73,Guinea-Bissau,18,0,GNB
+2020-04-04,73,Guyana,23,4,GUY
+2020-04-04,73,Haiti,20,0,HTI
+2020-04-04,73,Holy See,7,0,
+2020-04-04,73,Honduras,264,15,HND
+2020-04-04,73,Hungary,678,32,HUN
+2020-04-04,73,Iceland,1417,4,ISL
+2020-04-04,73,India,3082,86,IND
+2020-04-04,73,Indonesia,2092,191,IDN
+2020-04-04,73,Iran,55743,3452,IRN
+2020-04-04,73,Iraq,878,56,IRQ
+2020-04-04,73,Ireland,4604,137,IRL
+2020-04-04,73,Israel,7851,44,ISR
+2020-04-04,73,Italy,124632,15362,ITA
+2020-04-04,73,Jamaica,53,3,JAM
+2020-04-04,73,Japan,3139,77,JPN
+2020-04-04,73,Jordan,323,5,JOR
+2020-04-04,73,Kazakhstan,531,5,KAZ
+2020-04-04,73,Kenya,126,4,KEN
+2020-04-04,73,"Korea, South",10156,177,KOR
+2020-04-04,73,Kosovo,135,1,KSV
+2020-04-04,73,Kuwait,479,1,KWT
+2020-04-04,73,Kyrgyzstan,144,1,KGZ
+2020-04-04,73,Laos,10,0,LAO
+2020-04-04,73,Latvia,509,1,LVA
+2020-04-04,73,Lebanon,520,17,LBN
+2020-04-04,73,Liberia,10,1,LBR
+2020-04-04,73,Libya,18,1,LBY
+2020-04-04,73,Liechtenstein,77,1,LIE
+2020-04-04,73,Lithuania,771,11,LTU
+2020-04-04,73,Luxembourg,2729,31,LUX
+2020-04-04,73,MS Zaandam,9,2,
+2020-04-04,73,Madagascar,70,0,MDG
+2020-04-04,73,Malawi,4,0,MWI
+2020-04-04,73,Malaysia,3483,57,MYS
+2020-04-04,73,Maldives,19,0,MDV
+2020-04-04,73,Mali,41,3,MLI
+2020-04-04,73,Malta,213,0,MLT
+2020-04-04,73,Mauritania,6,1,MRT
+2020-04-04,73,Mauritius,196,7,MUS
+2020-04-04,73,Mexico,1688,60,MEX
+2020-04-04,73,Moldova,752,12,MDA
+2020-04-04,73,Monaco,66,1,MCO
+2020-04-04,73,Mongolia,14,0,MNG
+2020-04-04,73,Montenegro,201,2,MNE
+2020-04-04,73,Morocco,919,59,MAR
+2020-04-04,73,Mozambique,10,0,MOZ
+2020-04-04,73,Namibia,14,0,NAM
+2020-04-04,73,Nepal,9,0,NPL
+2020-04-04,73,Netherlands,16727,1656,NLD
+2020-04-04,73,New Zealand,950,1,NZL
+2020-04-04,73,Nicaragua,5,1,NIC
+2020-04-04,73,Niger,144,8,NER
+2020-04-04,73,Nigeria,214,4,NGA
+2020-04-04,73,North Macedonia,483,17,
+2020-04-04,73,Norway,5550,62,NOR
+2020-04-04,73,Oman,277,2,OMN
+2020-04-04,73,Pakistan,2818,41,PAK
+2020-04-04,73,Panama,1673,41,PAN
+2020-04-04,73,Papua New Guinea,1,0,PNG
+2020-04-04,73,Paraguay,96,3,PRY
+2020-04-04,73,Peru,1746,73,PER
+2020-04-04,73,Philippines,3094,144,PHL
+2020-04-04,73,Poland,3627,79,POL
+2020-04-04,73,Portugal,10524,266,PRT
+2020-04-04,73,Qatar,1325,3,QAT
+2020-04-04,73,Romania,3613,146,ROU
+2020-04-04,73,Russia,4731,43,RUS
+2020-04-04,73,Rwanda,102,0,RWA
+2020-04-04,73,Saint Kitts and Nevis,9,0,KNA
+2020-04-04,73,Saint Lucia,14,0,LCA
+2020-04-04,73,Saint Vincent and the Grenadines,7,0,VCT
+2020-04-04,73,San Marino,259,32,SMR
+2020-04-04,73,Sao Tome and Principe,0,0,STP
+2020-04-04,73,Saudi Arabia,2179,29,SAU
+2020-04-04,73,Senegal,219,2,SEN
+2020-04-04,73,Serbia,1624,44,SRB
+2020-04-04,73,Seychelles,10,0,SYC
+2020-04-04,73,Sierra Leone,4,0,SLE
+2020-04-04,73,Singapore,1189,6,SGP
+2020-04-04,73,Slovakia,471,1,SVK
+2020-04-04,73,Slovenia,977,22,SVN
+2020-04-04,73,Somalia,7,0,SOM
+2020-04-04,73,South Africa,1585,9,ZAF
+2020-04-04,73,South Sudan,0,0,SSD
+2020-04-04,73,Spain,126168,11947,ESP
+2020-04-04,73,Sri Lanka,166,5,LKA
+2020-04-04,73,Sudan,10,2,SDN
+2020-04-04,73,Suriname,10,1,SUR
+2020-04-04,73,Sweden,6443,373,SWE
+2020-04-04,73,Switzerland,20505,666,CHE
+2020-04-04,73,Syria,16,2,SYR
+2020-04-04,73,Taiwan*,355,5,TWN
+2020-04-04,73,Tanzania,20,1,TZA
+2020-04-04,73,Thailand,2067,20,THA
+2020-04-04,73,Timor-Leste,1,0,TLS
+2020-04-04,73,Togo,41,3,TGO
+2020-04-04,73,Trinidad and Tobago,103,6,TTO
+2020-04-04,73,Tunisia,553,18,TUN
+2020-04-04,73,Turkey,23934,501,TUR
+2020-04-04,73,US,308850,8407,USA
+2020-04-04,73,Uganda,48,0,UGA
+2020-04-04,73,Ukraine,1225,32,UKR
+2020-04-04,73,United Arab Emirates,1505,10,ARE
+2020-04-04,73,United Kingdom,42477,4320,GBR
+2020-04-04,73,Uruguay,400,5,URY
+2020-04-04,73,Uzbekistan,266,2,UZB
+2020-04-04,73,Venezuela,155,7,VEN
+2020-04-04,73,Vietnam,240,0,VNM
+2020-04-04,73,West Bank and Gaza,217,1,
+2020-04-04,73,Western Sahara,0,0,
+2020-04-04,73,Zambia,39,1,ZMB
+2020-04-04,73,Zimbabwe,9,1,ZWE
+2020-04-05,74,Afghanistan,349,7,AFG
+2020-04-05,74,Albania,361,20,ALB
+2020-04-05,74,Algeria,1320,152,DZA
+2020-04-05,74,Andorra,501,18,AND
+2020-04-05,74,Angola,14,2,AGO
+2020-04-05,74,Antigua and Barbuda,15,0,ATG
+2020-04-05,74,Argentina,1451,44,ARG
+2020-04-05,74,Armenia,822,7,ARM
+2020-04-05,74,Australia,5687,35,AUS
+2020-04-05,74,Austria,12051,204,AUT
+2020-04-05,74,Azerbaijan,584,7,AZE
+2020-04-05,74,Bahamas,28,4,
+2020-04-05,74,Bahrain,700,4,BHR
+2020-04-05,74,Bangladesh,88,9,BGD
+2020-04-05,74,Barbados,56,1,BRB
+2020-04-05,74,Belarus,562,8,BLR
+2020-04-05,74,Belgium,19691,1447,BEL
+2020-04-05,74,Belize,5,0,BLZ
+2020-04-05,74,Benin,22,0,BEN
+2020-04-05,74,Bhutan,5,0,BTN
+2020-04-05,74,Bolivia,157,10,BOL
+2020-04-05,74,Bosnia and Herzegovina,654,23,BIH
+2020-04-05,74,Botswana,6,1,BWA
+2020-04-05,74,Brazil,11130,486,BRA
+2020-04-05,74,Brunei,135,1,BRN
+2020-04-05,74,Bulgaria,531,20,BGR
+2020-04-05,74,Burkina Faso,345,17,BFA
+2020-04-05,74,Burma,21,1,MMR
+2020-04-05,74,Burundi,3,0,BDI
+2020-04-05,74,Cabo Verde,7,1,CPV
+2020-04-05,74,Cambodia,114,0,KHM
+2020-04-05,74,Cameroon,650,9,CMR
+2020-04-05,74,Canada,15756,259,CAN
+2020-04-05,74,Central African Republic,8,0,CAF
+2020-04-05,74,Chad,9,0,TCD
+2020-04-05,74,Chile,4471,34,CHL
+2020-04-05,74,China,82602,3333,CHN
+2020-04-05,74,Colombia,1485,35,COL
+2020-04-05,74,Congo (Brazzaville),45,5,COG
+2020-04-05,74,Congo (Kinshasa),154,18,COD
+2020-04-05,74,Costa Rica,454,2,CRI
+2020-04-05,74,Cote d'Ivoire,261,3,CIV
+2020-04-05,74,Croatia,1182,15,HRV
+2020-04-05,74,Cuba,320,8,CUB
+2020-04-05,74,Cyprus,446,9,CYP
+2020-04-05,74,Czechia,4587,67,CZE
+2020-04-05,74,Denmark,4561,179,DNK
+2020-04-05,74,Diamond Princess,712,11,
+2020-04-05,74,Djibouti,59,0,DJI
+2020-04-05,74,Dominica,14,0,DMA
+2020-04-05,74,Dominican Republic,1745,82,DOM
+2020-04-05,74,Ecuador,3646,180,ECU
+2020-04-05,74,Egypt,1173,78,EGY
+2020-04-05,74,El Salvador,62,3,SLV
+2020-04-05,74,Equatorial Guinea,16,0,GNQ
+2020-04-05,74,Eritrea,29,0,ERI
+2020-04-05,74,Estonia,1097,15,EST
+2020-04-05,74,Eswatini,9,0,SWZ
+2020-04-05,74,Ethiopia,43,2,ETH
+2020-04-05,74,Fiji,12,0,FJI
+2020-04-05,74,Finland,1927,28,FIN
+2020-04-05,74,France,93773,8093,FRA
+2020-04-05,74,Gabon,21,1,GAB
+2020-04-05,74,Gambia,4,1,GMB
+2020-04-05,74,Georgia,174,2,GEO
+2020-04-05,74,Germany,100123,1584,DEU
+2020-04-05,74,Ghana,214,5,GHA
+2020-04-05,74,Greece,1735,73,GRC
+2020-04-05,74,Grenada,12,0,GRD
+2020-04-05,74,Guatemala,61,2,GTM
+2020-04-05,74,Guinea,121,0,GIN
+2020-04-05,74,Guinea-Bissau,18,0,GNB
+2020-04-05,74,Guyana,24,4,GUY
+2020-04-05,74,Haiti,21,1,HTI
+2020-04-05,74,Holy See,7,0,
+2020-04-05,74,Honduras,268,22,HND
+2020-04-05,74,Hungary,733,34,HUN
+2020-04-05,74,Iceland,1486,4,ISL
+2020-04-05,74,India,3588,99,IND
+2020-04-05,74,Indonesia,2273,198,IDN
+2020-04-05,74,Iran,58226,3603,IRN
+2020-04-05,74,Iraq,961,61,IRQ
+2020-04-05,74,Ireland,4994,158,IRL
+2020-04-05,74,Israel,8430,49,ISR
+2020-04-05,74,Italy,128948,15887,ITA
+2020-04-05,74,Jamaica,58,3,JAM
+2020-04-05,74,Japan,3139,77,JPN
+2020-04-05,74,Jordan,345,5,JOR
+2020-04-05,74,Kazakhstan,584,6,KAZ
+2020-04-05,74,Kenya,142,4,KEN
+2020-04-05,74,"Korea, South",10237,183,KOR
+2020-04-05,74,Kosovo,145,1,KSV
+2020-04-05,74,Kuwait,556,1,KWT
+2020-04-05,74,Kyrgyzstan,147,1,KGZ
+2020-04-05,74,Laos,11,0,LAO
+2020-04-05,74,Latvia,533,1,LVA
+2020-04-05,74,Lebanon,527,18,LBN
+2020-04-05,74,Liberia,13,3,LBR
+2020-04-05,74,Libya,18,1,LBY
+2020-04-05,74,Liechtenstein,77,1,LIE
+2020-04-05,74,Lithuania,811,13,LTU
+2020-04-05,74,Luxembourg,2804,36,LUX
+2020-04-05,74,MS Zaandam,9,2,
+2020-04-05,74,Madagascar,72,0,MDG
+2020-04-05,74,Malawi,4,0,MWI
+2020-04-05,74,Malaysia,3662,61,MYS
+2020-04-05,74,Maldives,19,0,MDV
+2020-04-05,74,Mali,45,5,MLI
+2020-04-05,74,Malta,227,0,MLT
+2020-04-05,74,Mauritania,6,1,MRT
+2020-04-05,74,Mauritius,227,7,MUS
+2020-04-05,74,Mexico,1890,79,MEX
+2020-04-05,74,Moldova,864,15,MDA
+2020-04-05,74,Monaco,73,1,MCO
+2020-04-05,74,Mongolia,14,0,MNG
+2020-04-05,74,Montenegro,214,2,MNE
+2020-04-05,74,Morocco,1021,70,MAR
+2020-04-05,74,Mozambique,10,0,MOZ
+2020-04-05,74,Namibia,16,0,NAM
+2020-04-05,74,Nepal,9,0,NPL
+2020-04-05,74,Netherlands,17953,1771,NLD
+2020-04-05,74,New Zealand,1039,1,NZL
+2020-04-05,74,Nicaragua,6,1,NIC
+2020-04-05,74,Niger,184,10,NER
+2020-04-05,74,Nigeria,232,5,NGA
+2020-04-05,74,North Macedonia,555,18,
+2020-04-05,74,Norway,5687,71,NOR
+2020-04-05,74,Oman,298,2,OMN
+2020-04-05,74,Pakistan,3157,47,PAK
+2020-04-05,74,Panama,1801,46,PAN
+2020-04-05,74,Papua New Guinea,1,0,PNG
+2020-04-05,74,Paraguay,104,3,PRY
+2020-04-05,74,Peru,2281,83,PER
+2020-04-05,74,Philippines,3246,152,PHL
+2020-04-05,74,Poland,4102,94,POL
+2020-04-05,74,Portugal,11278,295,PRT
+2020-04-05,74,Qatar,1604,4,QAT
+2020-04-05,74,Romania,3864,151,ROU
+2020-04-05,74,Russia,5389,45,RUS
+2020-04-05,74,Rwanda,104,0,RWA
+2020-04-05,74,Saint Kitts and Nevis,10,0,KNA
+2020-04-05,74,Saint Lucia,14,0,LCA
+2020-04-05,74,Saint Vincent and the Grenadines,7,0,VCT
+2020-04-05,74,San Marino,266,32,SMR
+2020-04-05,74,Sao Tome and Principe,0,0,STP
+2020-04-05,74,Saudi Arabia,2402,34,SAU
+2020-04-05,74,Senegal,222,2,SEN
+2020-04-05,74,Serbia,1908,51,SRB
+2020-04-05,74,Seychelles,10,0,SYC
+2020-04-05,74,Sierra Leone,6,0,SLE
+2020-04-05,74,Singapore,1309,6,SGP
+2020-04-05,74,Slovakia,485,1,SVK
+2020-04-05,74,Slovenia,997,28,SVN
+2020-04-05,74,Somalia,7,0,SOM
+2020-04-05,74,South Africa,1655,11,ZAF
+2020-04-05,74,South Sudan,1,0,SSD
+2020-04-05,74,Spain,131646,12641,ESP
+2020-04-05,74,Sri Lanka,176,5,LKA
+2020-04-05,74,Sudan,12,2,SDN
+2020-04-05,74,Suriname,10,1,SUR
+2020-04-05,74,Sweden,6830,401,SWE
+2020-04-05,74,Switzerland,21100,715,CHE
+2020-04-05,74,Syria,19,2,SYR
+2020-04-05,74,Taiwan*,363,5,TWN
+2020-04-05,74,Tanzania,22,1,TZA
+2020-04-05,74,Thailand,2169,23,THA
+2020-04-05,74,Timor-Leste,1,0,TLS
+2020-04-05,74,Togo,44,3,TGO
+2020-04-05,74,Trinidad and Tobago,104,7,TTO
+2020-04-05,74,Tunisia,574,22,TUN
+2020-04-05,74,Turkey,27069,574,TUR
+2020-04-05,74,US,337072,9619,USA
+2020-04-05,74,Uganda,52,0,UGA
+2020-04-05,74,Ukraine,1308,37,UKR
+2020-04-05,74,United Arab Emirates,1799,10,ARE
+2020-04-05,74,United Kingdom,48436,4943,GBR
+2020-04-05,74,Uruguay,400,5,URY
+2020-04-05,74,Uzbekistan,342,2,UZB
+2020-04-05,74,Venezuela,159,7,VEN
+2020-04-05,74,Vietnam,241,0,VNM
+2020-04-05,74,West Bank and Gaza,237,1,
+2020-04-05,74,Western Sahara,4,0,
+2020-04-05,74,Zambia,39,1,ZMB
+2020-04-05,74,Zimbabwe,9,1,ZWE
+2020-04-06,75,Afghanistan,367,11,AFG
+2020-04-06,75,Albania,377,21,ALB
+2020-04-06,75,Algeria,1423,173,DZA
+2020-04-06,75,Andorra,525,21,AND
+2020-04-06,75,Angola,16,2,AGO
+2020-04-06,75,Antigua and Barbuda,15,0,ATG
+2020-04-06,75,Argentina,1554,48,ARG
+2020-04-06,75,Armenia,833,8,ARM
+2020-04-06,75,Australia,5797,40,AUS
+2020-04-06,75,Austria,12297,220,AUT
+2020-04-06,75,Azerbaijan,641,7,AZE
+2020-04-06,75,Bahamas,29,5,
+2020-04-06,75,Bahrain,756,4,BHR
+2020-04-06,75,Bangladesh,123,12,BGD
+2020-04-06,75,Barbados,60,2,BRB
+2020-04-06,75,Belarus,700,13,BLR
+2020-04-06,75,Belgium,20814,1632,BEL
+2020-04-06,75,Belize,7,1,BLZ
+2020-04-06,75,Benin,26,1,BEN
+2020-04-06,75,Bhutan,5,0,BTN
+2020-04-06,75,Bolivia,183,11,BOL
+2020-04-06,75,Bosnia and Herzegovina,674,29,BIH
+2020-04-06,75,Botswana,6,1,BWA
+2020-04-06,75,Brazil,12161,564,BRA
+2020-04-06,75,Brunei,135,1,BRN
+2020-04-06,75,Bulgaria,549,22,BGR
+2020-04-06,75,Burkina Faso,364,18,BFA
+2020-04-06,75,Burma,22,1,MMR
+2020-04-06,75,Burundi,3,0,BDI
+2020-04-06,75,Cabo Verde,7,1,CPV
+2020-04-06,75,Cambodia,114,0,KHM
+2020-04-06,75,Cameroon,658,9,CMR
+2020-04-06,75,Canada,16563,339,CAN
+2020-04-06,75,Central African Republic,8,0,CAF
+2020-04-06,75,Chad,9,0,TCD
+2020-04-06,75,Chile,4815,37,CHL
+2020-04-06,75,China,82665,3335,CHN
+2020-04-06,75,Colombia,1579,46,COL
+2020-04-06,75,Congo (Brazzaville),45,5,COG
+2020-04-06,75,Congo (Kinshasa),161,18,COD
+2020-04-06,75,Costa Rica,467,2,CRI
+2020-04-06,75,Cote d'Ivoire,323,3,CIV
+2020-04-06,75,Croatia,1222,16,HRV
+2020-04-06,75,Cuba,350,9,CUB
+2020-04-06,75,Cyprus,465,9,CYP
+2020-04-06,75,Czechia,4822,78,CZE
+2020-04-06,75,Denmark,4875,187,DNK
+2020-04-06,75,Diamond Princess,712,11,
+2020-04-06,75,Djibouti,90,0,DJI
+2020-04-06,75,Dominica,15,0,DMA
+2020-04-06,75,Dominican Republic,1828,86,DOM
+2020-04-06,75,Ecuador,3747,191,ECU
+2020-04-06,75,Egypt,1322,85,EGY
+2020-04-06,75,El Salvador,69,4,SLV
+2020-04-06,75,Equatorial Guinea,16,0,GNQ
+2020-04-06,75,Eritrea,31,0,ERI
+2020-04-06,75,Estonia,1108,19,EST
+2020-04-06,75,Eswatini,10,0,SWZ
+2020-04-06,75,Ethiopia,44,2,ETH
+2020-04-06,75,Fiji,14,0,FJI
+2020-04-06,75,Finland,2176,27,FIN
+2020-04-06,75,France,98963,8926,FRA
+2020-04-06,75,Gabon,24,1,GAB
+2020-04-06,75,Gambia,4,1,GMB
+2020-04-06,75,Georgia,188,2,GEO
+2020-04-06,75,Germany,103374,1810,DEU
+2020-04-06,75,Ghana,214,5,GHA
+2020-04-06,75,Greece,1755,79,GRC
+2020-04-06,75,Grenada,12,0,GRD
+2020-04-06,75,Guatemala,70,3,GTM
+2020-04-06,75,Guinea,128,0,GIN
+2020-04-06,75,Guinea-Bissau,18,0,GNB
+2020-04-06,75,Guyana,31,4,GUY
+2020-04-06,75,Haiti,24,1,HTI
+2020-04-06,75,Holy See,7,0,
+2020-04-06,75,Honduras,298,22,HND
+2020-04-06,75,Hungary,744,38,HUN
+2020-04-06,75,Iceland,1562,6,ISL
+2020-04-06,75,India,4778,136,IND
+2020-04-06,75,Indonesia,2491,209,IDN
+2020-04-06,75,Iran,60500,3739,IRN
+2020-04-06,75,Iraq,1031,64,IRQ
+2020-04-06,75,Ireland,5364,174,IRL
+2020-04-06,75,Israel,8904,57,ISR
+2020-04-06,75,Italy,132547,16523,ITA
+2020-04-06,75,Jamaica,58,3,JAM
+2020-04-06,75,Japan,3654,85,JPN
+2020-04-06,75,Jordan,349,6,JOR
+2020-04-06,75,Kazakhstan,662,6,KAZ
+2020-04-06,75,Kenya,158,6,KEN
+2020-04-06,75,"Korea, South",10284,186,KOR
+2020-04-06,75,Kosovo,145,1,KSV
+2020-04-06,75,Kuwait,665,1,KWT
+2020-04-06,75,Kyrgyzstan,216,4,KGZ
+2020-04-06,75,Laos,12,0,LAO
+2020-04-06,75,Latvia,542,1,LVA
+2020-04-06,75,Lebanon,541,19,LBN
+2020-04-06,75,Liberia,14,3,LBR
+2020-04-06,75,Libya,19,1,LBY
+2020-04-06,75,Liechtenstein,77,1,LIE
+2020-04-06,75,Lithuania,843,15,LTU
+2020-04-06,75,Luxembourg,2843,41,LUX
+2020-04-06,75,MS Zaandam,9,2,
+2020-04-06,75,Madagascar,82,0,MDG
+2020-04-06,75,Malawi,5,0,MWI
+2020-04-06,75,Malaysia,3793,62,MYS
+2020-04-06,75,Maldives,19,0,MDV
+2020-04-06,75,Mali,47,5,MLI
+2020-04-06,75,Malta,241,0,MLT
+2020-04-06,75,Mauritania,6,1,MRT
+2020-04-06,75,Mauritius,244,7,MUS
+2020-04-06,75,Mexico,2143,94,MEX
+2020-04-06,75,Moldova,965,19,MDA
+2020-04-06,75,Monaco,77,1,MCO
+2020-04-06,75,Mongolia,15,0,MNG
+2020-04-06,75,Montenegro,233,2,MNE
+2020-04-06,75,Morocco,1120,80,MAR
+2020-04-06,75,Mozambique,10,0,MOZ
+2020-04-06,75,Namibia,16,0,NAM
+2020-04-06,75,Nepal,9,0,NPL
+2020-04-06,75,Netherlands,18926,1874,NLD
+2020-04-06,75,New Zealand,1106,1,NZL
+2020-04-06,75,Nicaragua,6,1,NIC
+2020-04-06,75,Niger,253,10,NER
+2020-04-06,75,Nigeria,238,5,NGA
+2020-04-06,75,North Macedonia,570,23,
+2020-04-06,75,Norway,5865,76,NOR
+2020-04-06,75,Oman,331,2,OMN
+2020-04-06,75,Pakistan,3766,53,PAK
+2020-04-06,75,Panama,1988,54,PAN
+2020-04-06,75,Papua New Guinea,2,0,PNG
+2020-04-06,75,Paraguay,113,5,PRY
+2020-04-06,75,Peru,2561,92,PER
+2020-04-06,75,Philippines,3660,163,PHL
+2020-04-06,75,Poland,4413,107,POL
+2020-04-06,75,Portugal,11730,311,PRT
+2020-04-06,75,Qatar,1832,4,QAT
+2020-04-06,75,Romania,4057,176,ROU
+2020-04-06,75,Russia,6343,47,RUS
+2020-04-06,75,Rwanda,105,0,RWA
+2020-04-06,75,Saint Kitts and Nevis,10,0,KNA
+2020-04-06,75,Saint Lucia,14,0,LCA
+2020-04-06,75,Saint Vincent and the Grenadines,7,0,VCT
+2020-04-06,75,San Marino,266,32,SMR
+2020-04-06,75,Sao Tome and Principe,4,0,STP
+2020-04-06,75,Saudi Arabia,2605,38,SAU
+2020-04-06,75,Senegal,226,2,SEN
+2020-04-06,75,Serbia,2200,58,SRB
+2020-04-06,75,Seychelles,11,0,SYC
+2020-04-06,75,Sierra Leone,6,0,SLE
+2020-04-06,75,Singapore,1375,6,SGP
+2020-04-06,75,Slovakia,534,2,SVK
+2020-04-06,75,Slovenia,1021,30,SVN
+2020-04-06,75,Somalia,7,0,SOM
+2020-04-06,75,South Africa,1686,12,ZAF
+2020-04-06,75,South Sudan,1,0,SSD
+2020-04-06,75,Spain,136675,13341,ESP
+2020-04-06,75,Sri Lanka,178,5,LKA
+2020-04-06,75,Sudan,12,2,SDN
+2020-04-06,75,Suriname,10,1,SUR
+2020-04-06,75,Sweden,7206,477,SWE
+2020-04-06,75,Switzerland,21657,765,CHE
+2020-04-06,75,Syria,19,2,SYR
+2020-04-06,75,Taiwan*,373,5,TWN
+2020-04-06,75,Tanzania,24,1,TZA
+2020-04-06,75,Thailand,2220,26,THA
+2020-04-06,75,Timor-Leste,1,0,TLS
+2020-04-06,75,Togo,58,3,TGO
+2020-04-06,75,Trinidad and Tobago,105,8,TTO
+2020-04-06,75,Tunisia,596,22,TUN
+2020-04-06,75,Turkey,30217,649,TUR
+2020-04-06,75,US,366614,10783,USA
+2020-04-06,75,Uganda,52,0,UGA
+2020-04-06,75,Ukraine,1319,38,UKR
+2020-04-06,75,United Arab Emirates,2076,11,ARE
+2020-04-06,75,United Kingdom,52279,5385,GBR
+2020-04-06,75,Uruguay,406,6,URY
+2020-04-06,75,Uzbekistan,457,2,UZB
+2020-04-06,75,Venezuela,165,7,VEN
+2020-04-06,75,Vietnam,245,0,VNM
+2020-04-06,75,West Bank and Gaza,254,1,
+2020-04-06,75,Western Sahara,4,0,
+2020-04-06,75,Zambia,39,1,ZMB
+2020-04-06,75,Zimbabwe,10,1,ZWE
