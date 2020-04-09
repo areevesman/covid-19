@@ -60,12 +60,12 @@ app.index_string = '''
         <title>{%title%}</title>
         {%favicon%}
         {%css%}
+        {%scripts%}
     </head>
     <body>
         {%app_entry%}
         <footer>
             {%config%}
-            {%scripts%}
             {%renderer%}
         </footer>
     </body>
