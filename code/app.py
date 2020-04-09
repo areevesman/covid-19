@@ -8,6 +8,7 @@ import json
 import plotly.graph_objects as go
 from dash.dependencies import Input, Output
 import os
+import flask
 # import plotly.figure_factory as ff
 # import plotly.express as px
 
@@ -37,7 +38,8 @@ with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-c
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = flask.Flask(__name__)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, server=server)
 
 colors = {
     'background': '#111111',
