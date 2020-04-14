@@ -113,6 +113,10 @@ def run_app(ssh):
     kill_command = 'pkill -f gunicorn'
     stdin, stdout, stderr = ssh.exec_command(kill_command)
 
+    # make bash file executable
+    make_executable = "chmod +x " + git_repo_name + "/run_daemon.sh"
+    stdin, stdout, stderr = ssh.exec_command(make_executable)
+
     # run flask app as daemon (on port 8080)
     # execute = "gunicorn /home/ec2-user/covid-19/code/app:server -b :8080 &"
     execute = git_repo_name + "/run_daemon.sh"
