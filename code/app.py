@@ -162,18 +162,90 @@ app.layout = html.Div(
                 ),
 
                 dcc.Dropdown(id='dropdown-state',
-                    options=dropdown_choices,
-                    value='AL',
-                    placeholder="Select a State",
-                    clearable=False,
-                    searchable=False
-                ),
+                             options=dropdown_choices,
+                             value='AL',
+                             placeholder="Select a State",
+                             clearable=False,
+                             searchable=False
+                             ),
 
                 dcc.Graph(id='indicator-graphic3'),
 
                 html.Div(id='output-totals_US_c'),
 
                 html.Div(id='output-data-upload3')
+            ]),
+        ]),
+        dcc.Tab(label='About', children=[
+            html.Div(style={'backgroundColor': colors['background']}, children=[
+                html.H3(
+                    children='Data',
+                    style={
+                        'textAlign': 'left',
+                        'color': colors['text'],
+                        'marginLeft': 10,
+                        'marginRight': 10,
+                        'marginTop': 10,
+                        'marginBottom': 0
+                    }
+                ),
+                dcc.Markdown(
+                    children="""
+The New York Times and the Johns Hopkins University Center for Systems Science and Engineering are providing daily COVID-19 case count files on GitHub. The links are provided below:
+
+- [New York Times](https://github.com/nytimes/covid-19-data)
+- [Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19)
+
+[This repository](https://github.com/willhaslett/covid-19-growth) by Will Haslett aggregates these files (more details can be found in the README).
+
+Please see the README in each repository above for information on the data collection process and missing values.""",
+                    style={
+                        'textAlign': 'left',
+                        'color': colors['text'],
+                        'fontSize' : '18px',
+                        'marginLeft': 10,
+                        'marginRight': 10,
+                        'marginTop': 10,
+                        'marginBottom': 10
+                    }
+                ),
+                html.H3(
+                    children='Contact',
+                    style={
+                        'textAlign': 'left',
+                        'color': colors['text'],
+                        'marginLeft': 10,
+                        'marginRight': 10,
+                        'marginTop': 10,
+                        'marginBottom': 10
+                    }
+                ),
+                dcc.Markdown(
+                    children="""
+ This application was created entirely in Python using plotly and dash. If you would like to offer feedback, ask a question, or have an idea and would like to contribute, I can always be reached on [Linkedin](https://www.linkedin.com/in/adamreevesman) or over email at areevesman@gmail.com.
+ """,
+                    style={
+                        'textAlign': 'left',
+                        'color': colors['text'],
+                        'fontSize' : '18px',
+                        'marginLeft': 10,
+                        'marginRight': 10,
+                        'marginTop': 10,
+                        'marginBottom': 10
+                    }
+                ),
+                # dcc.Markdown(
+                #     children=""" test""",
+                #     style={
+                #         'textAlign': 'left',
+                #         'color': colors['text'],
+                #         'fontSize' : '18px',
+                #         'marginLeft': 10,
+                #         'marginRight': 10,
+                #         'marginTop': 10,
+                #         'marginBottom': 10
+                #     }
+                # )
             ]),
         ])
     ])
@@ -245,10 +317,6 @@ def update_graph_US_c(day_US_c, code):
     dff_US_c = county_dfs[day_US_c]
     dff_US_c['FIPS'] = dff_US_c['FIPS'].map(lambda x: '0' + str(x) if (len(str(x)) <= 4) else str(x))
     dff_US_c = dff_US_c.loc[(dff_US_c['Code'] == code)]
-
-    # dff_US_c = df_US_c.loc[((df_US_c['Date'] == dates_US_c[day_US_c]) | (df_US_c['Date'].isna())) &\
-    #                        (df_US_c['Code'] == code)]
-
     dff_US_c.loc[:,'Text'] = [f'<b>{w}</b><br>{int(x):,} Cases<br>{int(z):,} Deaths' for w, x,y,z in\
                               zip(dff_US_c['County'], dff_US_c['Cases'], dff_US_c['State'], dff_US_c['Deaths'])]
     center_dict={"lat": float(state_lat_lon.loc[state_lat_lon['State']==code,'Latitude'].values[0]),
@@ -366,7 +434,11 @@ def update_totals(day):
                     children=[f'Total Cases: {d["Cases"][0]}', html.Br(), f'Total Deaths: {d["Deaths"][0]}'],
                     style={
                         'textAlign': 'left',
-                        'color': colors['text']
+                        'color': colors['text'],
+                        'marginLeft': 10,
+                        'marginRight': 10,
+                        'marginTop': 10,
+                        'marginBottom': 0
                     }
                 )
 
@@ -382,7 +454,11 @@ def update_totals_US(day_US):
                     children=[f'Total Cases: {d_US["Cases"][0]}', html.Br(), f'Total Deaths: {d_US["Deaths"][0]}'],
                     style={
                         'textAlign': 'left',
-                        'color': colors['text']
+                        'color': colors['text'],
+                        'marginLeft': 10,
+                        'marginRight': 10,
+                        'marginTop': 10,
+                        'marginBottom': 0
                     }
                 )
 
@@ -397,7 +473,11 @@ def update_totals_US_c(day_US_c, code):
                     children=[f'Total Cases: {d_US_c["Cases"][0]}', html.Br(), f'Total Deaths: {d_US_c["Deaths"][0]}'],
                     style={
                         'textAlign': 'left',
-                        'color': colors['text']
+                        'color': colors['text'],
+                        'marginLeft': 10,
+                        'marginRight': 10,
+                        'marginTop': 10,
+                        'marginBottom': 0
                     }
                 )
 
