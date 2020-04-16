@@ -249,7 +249,7 @@ Please see the README in each repository above for information on the data colle
                     children="""
  Some users have had issues with the links above. If you have trouble, here are the full links.
 - New York Times: [https://github.com/nytimes/covid-19-data](https://github.com/nytimes/covid-19-data)
-- Johns Hopkins: University[https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
+- Johns Hopkins: University: [https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
 - Will Haslett's repository: [https://github.com/willhaslett/covid-19-growth](https://github.com/willhaslett/covid-19-growth)
 - My Linkedin: [https://www.linkedin.com/in/adamreevesman](https://www.linkedin.com/in/adamreevesman)
  """,
