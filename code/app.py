@@ -234,18 +234,35 @@ Please see the README in each repository above for information on the data colle
                         'marginBottom': 10
                     }
                 ),
-                # dcc.Markdown(
-                #     children=""" test""",
-                #     style={
-                #         'textAlign': 'left',
-                #         'color': colors['text'],
-                #         'fontSize' : '18px',
-                #         'marginLeft': 10,
-                #         'marginRight': 10,
-                #         'marginTop': 10,
-                #         'marginBottom': 10
-                #     }
-                # )
+                html.H3(
+                    children='Broken Links',
+                    style={
+                        'textAlign': 'left',
+                        'color': colors['text'],
+                        'marginLeft': 10,
+                        'marginRight': 10,
+                        'marginTop': 10,
+                        'marginBottom': 10
+                    }
+                ),
+                dcc.Markdown(
+                    children="""
+ Some users have had issues with the links above. If you have trouble, here are the full links.
+- New York Times: [https://github.com/nytimes/covid-19-data](https://github.com/nytimes/covid-19-data)
+- Johns Hopkins: University[https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
+- Will Haslett's repository: [https://github.com/willhaslett/covid-19-growth](https://github.com/willhaslett/covid-19-growth)
+- My Linkedin: [https://www.linkedin.com/in/adamreevesman](https://www.linkedin.com/in/adamreevesman)
+ """,
+                    style={
+                        'textAlign': 'left',
+                        'color': colors['text'],
+                        'fontSize' : '18px',
+                        'marginLeft': 10,
+                        'marginRight': 10,
+                        'marginTop': 10,
+                        'marginBottom': 10
+                    }
+                )
             ]),
         ])
     ])
