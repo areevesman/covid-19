@@ -31,7 +31,7 @@ dates_US_c = [x.replace('date_','').replace('.csv','') for x in os.listdir('../d
 dates_US_c = sorted(set([x for x in dates_US_c]))
 county_dfs = [pd.read_csv(f'../data/county_data/{f}') for f in sorted(os.listdir('../data/county_data/'))]
 
-state_lat_lon = pd.read_csv('../../general_data/statelatlong.csv')
+state_lat_lon = pd.read_csv('../data/statelatlong.csv')
 
 with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
     counties = json.load(response)
