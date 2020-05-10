@@ -12,6 +12,10 @@ from apps import world_page, country_specific_pages,\
 import pandas as pd
 
 
+df = pd.read_csv('../data/world_data_with_codes.csv')
+df_US = pd.read_csv('../data/daily_cases_USA_states.csv')
+df_US_c = pd.read_csv('../data/daily_cases_USA_counties.csv')
+
 app.layout = html.Div([
     dcc.Location(id='url', refresh=True),
     html.Div(id='page-content')
