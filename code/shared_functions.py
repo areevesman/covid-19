@@ -76,9 +76,9 @@ def Table(dataframe, link_column_name=None, col1=None, col2=None, drop=[]):
                 value = dataframe.iloc[i][col]
                 if col in [col1, col2]:
                     if col == col2:
-                        cell = html.Td(dcc.Markdown('['+baseURL + links2[i]+'](' +baseURL + links2[i]+ ')'))#(href=baseURL + links2[i], children=value))
+                        cell = html.Td(dcc.Link(href=baseURL + links2[i], children=value))
                     else:
-                        cell = html.Td(dcc.Markdown('['+baseURL + links2[i]+'](' +baseURL + links2[i]+ ')')#(href=baseURL + links1[i], children=value))
+                        cell = html.Td(dcc.Link(href=baseURL + links1[i], children=value))
                 else:
                     cell = html.Td(children=value)
                 row.append(cell)
