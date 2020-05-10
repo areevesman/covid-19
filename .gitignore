@@ -6,3 +6,4 @@ data.zip
 assets
 *.zip
 __MACOSX
+.ipynb_checkpoints
