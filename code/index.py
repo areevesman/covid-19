@@ -3,6 +3,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 from app import app
+from app import server
 from apps import world_page, country_specific_pages,\
     usa_states_page, usa_counties_page,\
     state_specific_pages, county_specific_pages,\

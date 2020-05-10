@@ -77,6 +77,7 @@ def pull_data(ssh):
     copy_world_notebook_command = "cp /home/ec2-user/" + git_repo_name + "/code/notebooks/pull_world_data.ipynb " +\
                                 "/home/ec2-user/covid-19-growth/notebooks/pull_world_data.ipynb"
     stdin, stdout, stderr = ssh.exec_command(copy_world_notebook_command)
+    print(stderr.read())
 
 
 def set_crontab(ssh):
@@ -93,7 +94,7 @@ def set_crontab(ssh):
     kill_cron = "2 * * * * pkill -f gunicorn"
 
     restart_cron = "3 * * * * /opt/conda/envs/covid19/bin/gunicorn " +\
-                   "app:server -b :8080 --chdir /home/ec2-user/covid-19/code &"
+                   "index:server -b :8080 --chdir /home/ec2-user/covid-19/code &"
 
     cronline = env1_activate + '\n' + kill_cron + '\n' + restart_cron
     stdin, stdout, stderr = ssh.exec_command("crontab -l | { cat; echo \""
@@ -115,9 +116,10 @@ def run_app(ssh):
     time.sleep(10)
 
     # run flask app as daemon (on port 8080)
-    execute = "/opt/conda/envs/covid19/bin/gunicorn app:server -b :8080 --chdir /home/ec2-user/covid-19/code &"
+    execute = "/opt/conda/envs/covid19/bin/gunicorn index:server -b :8080 --chdir /home/ec2-user/covid-19/code &"
     # execute = git_repo_name + "/run_daemon.sh"
     stdin, stdout, stderr = ssh.exec_command(execute)
+    print(stderr.read())
     time.sleep(10)
 
     print(8080)  # app running on port 8080
