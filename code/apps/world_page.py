@@ -159,7 +159,7 @@ def update_table(day):
         .sort_values('Cases', ascending=False)
     totals['Cases'] = totals['Cases'].map(lambda x: f'{x:,}')
     totals['Deaths'] = totals['Deaths'].map(lambda x: f'{x:,}')
-    totals['Link'] = totals['Country'].map(lambda x: 'coronavirusmapsonline.com' + '/' + x.replace(' ',''))
+    totals['Link'] = totals['Country'].map(lambda x: '/' + x.replace(' ',''))
     table = Table(totals, link_column_name='Link', col1='Country')
     return table
 
