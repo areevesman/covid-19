@@ -17,7 +17,7 @@ df_US = pd.read_csv('../data/daily_cases_USA_states.csv')
 df_US_c = pd.read_csv('../data/daily_cases_USA_counties.csv')
 
 app.layout = html.Div([
-    dcc.Location(id='url', refresh=True),
+    dcc.Location(id='url', refresh=False),
     html.Div(id='page-content')
 ])
 
