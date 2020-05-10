@@ -77,6 +77,7 @@ Instructions for accessing the data are provided below (click to make them visib
     * Example: [http://coronavirusmapsonline.com/UnitedKingdom](http://coronavirusmapsonline.com/UnitedKingdom)
 * For US state-level data, either:
   * Navigate to the **CASES BY US STATE** tab above, then click on a state in the table, or
+  * Navigate to the **CASES BY US COUNTY** tab above, then click on a state in the table, or
   * Add "/<state>" to the URL in your browser window (remove any spaces)
     * Example: [http://coronavirusmapsonline.com/NewYork](http://coronavirusmapsonline.com/NewYork)
 * For US county-level data, either:
