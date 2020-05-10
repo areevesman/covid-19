@@ -31,8 +31,7 @@ header = [
                         'textAlign': 'center',
                         'color': colors['text']
                     }),
-        href=baseURL + '/',
-        refresh=True),
+        href=baseURL + '/'),
     dcc.Link(
         html.Button('Cases by US State',
                     className='three columns',
@@ -40,8 +39,7 @@ header = [
                         'textAlign': 'center',
                         'color': colors['text']
                     }),
-        href=baseURL + '/States',
-        refresh=True),
+        href=baseURL + '/States'),
     dcc.Link(
         html.Button('Cases by US County',
                     className='three columns',
@@ -49,8 +47,7 @@ header = [
                         'textAlign': 'center',
                         'color': colors['text']
                     }),
-        href=baseURL + '/Counties',
-        refresh=True),
+        href=baseURL + '/Counties'),
     dcc.Link(
         html.Button('About',
                     className='three columns',
@@ -58,8 +55,7 @@ header = [
                         'textAlign': 'center',
                         'color': colors['text']
                     }),
-        href=baseURL + '/About',
-        refresh=True)]
+        href=baseURL + '/About')]
 
 
 def Table(dataframe, link_column_name=None, col1=None, col2=None, drop=[]):
@@ -80,9 +76,9 @@ def Table(dataframe, link_column_name=None, col1=None, col2=None, drop=[]):
                 value = dataframe.iloc[i][col]
                 if col in [col1, col2]:
                     if col == col2:
-                        cell = html.Td(dcc.Link(href=baseURL + links2[i], children=value, refresh=True))
+                        cell = html.Td(dcc.Link(href=baseURL + links2[i], children=value))
                     else:
-                        cell = html.Td(dcc.Link(href=baseURL + links1[i], children=value, refresh=True))
+                        cell = html.Td(dcc.Link(href=baseURL + links1[i], children=value))
                 else:
                     cell = html.Td(children=value)
                 row.append(cell)
