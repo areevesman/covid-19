@@ -24,7 +24,7 @@ table_style = {'padding-left': '2%',
 
 baseURL = 'http://coronavirusmapsonline.com'
 header = [
-    dcc.Link(
+    html.A(
         html.Button('Cases by Country',
                     className='three columns',
                     style={
@@ -32,7 +32,7 @@ header = [
                         'color': colors['text']
                     }),
         href=baseURL + '/'),
-    dcc.Link(
+    html.A(
         html.Button('Cases by US State',
                     className='three columns',
                     style={
@@ -40,7 +40,7 @@ header = [
                         'color': colors['text']
                     }),
         href=baseURL + '/States'),
-    dcc.Link(
+    html.A(
         html.Button('Cases by US County',
                     className='three columns',
                     style={
@@ -48,7 +48,7 @@ header = [
                         'color': colors['text']
                     }),
         href=baseURL + '/Counties'),
-    dcc.Link(
+    html.A(
         html.Button('About',
                     className='three columns',
                     style={
@@ -76,9 +76,9 @@ def Table(dataframe, link_column_name=None, col1=None, col2=None, drop=[]):
                 value = dataframe.iloc[i][col]
                 if col in [col1, col2]:
                     if col == col2:
-                        cell = html.Td(dcc.Link(href=baseURL + links2[i], children=value))
+                        cell = html.Td(html.A(href=baseURL + links2[i], children=value))
                     else:
-                        cell = html.Td(dcc.Link(href=baseURL + links1[i], children=value))
+                        cell = html.Td(html.A(href=baseURL + links1[i], children=value))
                 else:
                     cell = html.Td(children=value)
                 row.append(cell)
