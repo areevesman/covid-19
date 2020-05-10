@@ -189,7 +189,7 @@ def update_table(day, pathname):
     totals['Cases'] = totals['Cases'].map(lambda x: f'{int(x):,}')
     totals['Deaths'] = totals['Deaths'].map(lambda x: f'{int(x):,}')
     # totals['Link'] = totals['County'].map(lambda x: 'localhost:8080' + '/' + x.replace(' ', ''))
-    totals['Link'] = ['localhost:8080' + '/' + state + '/' + county + ';' + 'localhost:8080' + '/' + state \
+    totals['Link'] = ['/' + state + '/' + county + ';' + '/' + state \
                           for county, state in zip(totals['County'], totals['State'])]
     table = Table(totals, link_column_name='Link', col1='County', col2='State', drop=['State'])
     return table
