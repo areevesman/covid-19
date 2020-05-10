@@ -109,7 +109,7 @@ def update_table_US(day):
     totals_US['Cases'] = totals_US['Cases'].map(lambda x: f'{x:,}')
     totals_US['Deaths'] = totals_US['Deaths'].map(lambda x: f'{x:,}')
     totals_US = totals_US.loc[totals_US['State'].isna()==False,:]
-    totals_US['Links'] = ['localhost:8080'+'/'+state+'/'+county+';'+'localhost:8080'+'/'+state\
+    totals_US['Links'] = ['coronavirusmapsonline.com'+'/'+state+'/'+county+';'+'coronavirusmapsonline.com'+'/'+state\
                           for county,state in zip(totals_US['County'], totals_US['State'])]
     table_US = Table(totals_US, 'Links', 'County', 'State')
     return table_US

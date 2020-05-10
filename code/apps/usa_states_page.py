@@ -90,7 +90,7 @@ def update_table_US(day_US):
         .sort_values('Cases', ascending=False)
     totals_US['Cases'] = totals_US['Cases'].map(lambda x: f'{x:,}')
     totals_US['Deaths'] = totals_US['Deaths'].map(lambda x: f'{x:,}')
-    totals_US['Links'] = ['localhost:8080'+'/'+state for state in totals_US['State']]
+    totals_US['Links'] = ['coronavirusmapsonline.com'+'/'+state for state in totals_US['State']]
     table_US = Table(totals_US, 'Links', 'State')
     return table_US
 
