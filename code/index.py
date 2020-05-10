@@ -40,17 +40,17 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/':
         return world_page.layout
-    elif pathname == '/States':
+    elif pathname == baseURL + '/States':
         return usa_states_page.layout
-    elif pathname == '/Counties':
+    elif pathname == baseURL + '/Counties':
         return usa_counties_page.layout
-    elif pathname == '/About':
+    elif pathname == baseURL + '/About':
         return about.layout
-    elif pathname in['/'+x.replace(' ','') for x in set(df['Country'].values)]:
+    elif pathname in[baseURL + '/'+x.replace(' ','') for x in set(df['Country'].values)]:
         return country_specific_pages.layout
-    elif pathname in['/'+x.replace(' ','') for x in set(df_US['State'].values)]:
+    elif pathname in[baseURL + '/'+x.replace(' ','') for x in set(df_US['State'].values)]:
         return state_specific_pages.layout
-    elif pathname in['/' + y.replace(' ','') + '/' + x.replace(' ','')\
+    elif pathname in[baseURL + '/' + y.replace(' ','') + '/' + x.replace(' ','')\
                      for x,y in set(zip(df_US_c['County'].values, df_US_c['State'].values))]:
         return county_specific_pages.layout
     else:
