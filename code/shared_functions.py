@@ -30,7 +30,7 @@ header = [
                         'textAlign': 'center',
                         'color': colors['text']
                     }),
-        href='localhost:8080'),
+        href='coronavirusmapsonline.com'),
     html.A(
         html.Button('Cases by US State',
                     className='three columns',
@@ -38,7 +38,7 @@ header = [
                         'textAlign': 'center',
                         'color': colors['text']
                     }),
-        href='localhost:8080/States'),
+        href='coronavirusmapsonline.com/States'),
     html.A(
         html.Button('Cases by US County',
                     className='three columns',
@@ -46,7 +46,7 @@ header = [
                         'textAlign': 'center',
                         'color': colors['text']
                     }),
-        href='localhost:8080/Counties'),
+        href='coronavirusmapsonline.com/Counties'),
     html.A(
         html.Button('About',
                     className='three columns',
@@ -54,7 +54,7 @@ header = [
                         'textAlign': 'center',
                         'color': colors['text']
                     }),
-        href='localhost:8080/About')]
+        href='coronavirusmapsonline.com/About')]
 
 
 def Table(dataframe, link_column_name=None, col1=None, col2=None, drop=[]):
