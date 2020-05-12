@@ -25,20 +25,22 @@ app.layout = html.Div([
 @app.callback(Output('page-content', 'children'),
               [Input('url', 'pathname')])
 def display_page(pathname):
+    pathname = pathname.lower()
     if pathname == '/':
         return world_page.layout
-    elif pathname == '/States':
+    elif pathname == '/states':
         return usa_states_page.layout
-    elif pathname == '/Counties':
+    elif pathname == '/counties':
         return usa_counties_page.layout
-    elif pathname == '/About':
+    elif pathname == '/about':
         return about.layout
-    elif pathname in['/'+x.replace(' ','') for x in set(df['Country'].values)]:
+    elif pathname in['/'+x.replace(' ','').lower() for x in set(df['Country'].values) if str(x) != 'nan']:
         return country_specific_pages.layout
-    elif pathname in['/'+x.replace(' ','') for x in set(df_US['State'].values)]:
+    elif pathname in['/'+x.replace(' ','').lower() for x in set(df_US['State'].values) if str(x) != 'nan']:
         return state_specific_pages.layout
-    elif pathname in['/' + y.replace(' ','') + '/' + x.replace(' ','')\
-                     for x,y in set(zip(df_US_c['County'].values, df_US_c['State'].values))]:
+    elif pathname in['/' + y.replace(' ','').lower() + '/' + x.replace(' ','').lower()\
+                     for x,y in set(zip(df_US_c['County'].values, df_US_c['State'].values))\
+                     if (str(x) !='nan' and str(y) != 'nan')]:
         return county_specific_pages.layout
     else:
         return '404. This page does not exist.'

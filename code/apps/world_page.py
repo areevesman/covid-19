@@ -15,9 +15,10 @@ from shared_functions import *
 
 from app import app
 
-
+page, pathname=None, None
+location_colname = 'Country'
 df = pd.read_csv('../data/world_data_with_codes.csv')
-cummulative_cases = df.groupby(['Date', 'Country']).sum()[['Cases', 'Deaths']].reset_index()
+cummulative_cases = df.groupby(['Date', location_colname]).sum()[['Cases', 'Deaths']].reset_index()
 dates = sorted(set(df['Date']))
 
 layout = html.Div(
@@ -126,7 +127,7 @@ Instructions for accessing the data are provided below (click to make them visib
 def update_graph(day):
     dff = df[df['Date'] == dates[day]]
     dff.loc[:, 'Text'] = [f'<b>{y}</b><br>{x:,} Cases<br>{z:,} Deaths' for x, y, z in
-                          zip(dff['Cases'], dff['Country'], dff['Deaths'])]
+                          zip(dff['Cases'], dff[location_colname], dff['Deaths'])]
 
     return {
         'data': [{'type': 'choropleth',
@@ -155,24 +156,14 @@ def update_graph(day):
 
 @app.callback(Output('output-data-upload', 'children'),
               [Input('date--slider', 'value')])
-def update_table(day):
-    totals = cummulative_cases[cummulative_cases['Date'] == dates[day]][['Country', 'Cases', 'Deaths']] \
-        .sort_values('Cases', ascending=False)
-    totals['Cases'] = totals['Cases'].map(lambda x: f'{x:,}')
-    totals['Deaths'] = totals['Deaths'].map(lambda x: f'{x:,}')
-    totals['Link'] = totals['Country'].map(lambda x: '/' + x.replace(' ',''))
-    table = Table(totals, link_column_name='Link', col1='Country')
-    return table
+def show_data_table(day):
+    page='world'
+    return data_table(day, None, cummulative_cases, dates, location_colname, None, page)
 
 @app.callback(Output('output-totals', 'children'),
               [Input('date--slider', 'value')])
-def update_totals(day):
-    day_totals = cummulative_cases[cummulative_cases['Date'] == dates[day]].sum()
-    d = {'Total Cases': [f"{day_totals['Cases']:,}"],
-         'Total Deaths': [f"{day_totals['Deaths']:,}"]}
-    totals = pd.DataFrame.from_dict(d)
-    table = Table(totals)
-    return table
+def show_updated_totals(day):
+  return update_totals(day, pathname, cummulative_cases, location_colname, dates, page)
 
 
 @app.callback(Output('slider-label', 'children'),
