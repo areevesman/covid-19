@@ -41,39 +41,6 @@ table_style = {}
 baseURL = 'http://coronavirusmapsonline.com'
 
 header = []
-# header = [
-#     dcc.Link(
-#         html.Button('Cases by Country',
-#                     className='three columns',
-#                     style={
-#                         'textAlign': 'center',
-#                         'color': colors['text']
-#                     }),
-#         href='/'),
-#     dcc.Link(
-#         html.Button('Cases by US State',
-#                     className='three columns',
-#                     style={
-#                         'textAlign': 'center',
-#                         'color': colors['text']
-#                     }),
-#         href='/unitedstates'),
-#     dcc.Link(
-#         html.Button('Cases by US County',
-#                     className='three columns',
-#                     style={
-#                         'textAlign': 'center',
-#                         'color': colors['text']
-#                     }),
-#         href='/unitedstates-counties'),
-#     dcc.Link(
-#         html.Button('About',
-#                     className='three columns',
-#                     style={
-#                         'textAlign': 'center',
-#                         'color': colors['text']
-#                     }),
-#         href='/About')]
 
 from app import app
 
@@ -218,17 +185,19 @@ def total_cases_graph(day, pathname, df, location_colname, dates, page=None):
 
 def daily_cases_graph(day, pathname, df, location_colname, dates, page=None):
     location = pathname.strip('/').lower()
-    if page !='world':
+    if location not in ['']:
         location_df = df[df[location_colname + '_'] == location].reset_index(drop=True)
         if len(location_df) > 0:
-            l = location_df[location_colname].values[0]
+            l_ = location_df[location_colname].values[0]
+            if l_[:6].lower() == 'united':
+                l = 'in the ' + l_
+            else:
+                l = 'in ' + l_
         else:
             return go.Figure()
     else:
         location_df = df.groupby(['Date']).sum()[['Cases','Deaths']].reset_index()
-        l = 'the world'
-    if l[:6].lower() == 'united':
-        l = 'the ' + l
+        l = 'globally'
     c = location_df['Cases'].values
     d = location_df['Deaths'].values
     location_df['New Cases'] = [c[0]] + list(c[1:] - c[:-1])
@@ -275,7 +244,7 @@ def daily_cases_graph(day, pathname, df, location_colname, dates, page=None):
                       plot_bgcolor='white',
                       xaxis=dict(title='Date', range=xrange),
                       yaxis=dict(title='Total', range=yrange),
-                      title=dict(text='Daily cases and deaths in ' + l,
+                      title=dict(text='Daily cases and deaths ' + l,
                                  x=0.5),
                       legend=dict(x=0, y=1))
 
