@@ -22,7 +22,8 @@ state_dropdown_choices = sorted(set(county_level_df['State'][county_level_df['St
 combinations = sorted(set(zip(county_level_df['State'][county_level_df['State'].isna()==False],
                               county_level_df['County'][county_level_df['State'].isna()==False])))
 county_dropdown_labels = [s + ' - ' + c for s,c in combinations if str(s) not in ['nan','']]
-county_dropdown_values = ['/' + c + '/' + s for c,s in combinations]
+county_dropdown_values = ['/' + c.replace(' ','').lower() + '/' + s.replace(' ','').lower()\
+                          for c,s in combinations]
 
 with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
     counties = json.load(response)
