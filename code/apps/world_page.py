@@ -15,21 +15,29 @@ from shared_functions import *
 
 from app import app
 
-page, pathname=None, None
+page, pathname = None, None
 location_colname = 'Country'
 df = pd.read_csv('../data/world_data_with_codes.csv')
 cummulative_cases = df.groupby(['Date', location_colname]).sum()[['Cases', 'Deaths']].reset_index()
 dates = sorted(set(df['Date']))
 
+# county_level_df = pd.read_csv('../data/daily_cases_USA_counties.csv')
+# world_dropdown_choices = sorted(set(df[location_colname]))
+# state_dropdown_choices = sorted(set(county_level_df['State'][county_level_df['State'].isna()==False]))
+# combinations = sorted(set(zip(county_level_df['State'][county_level_df['State'].isna()==False],
+#                               county_level_df['County'][county_level_df['State'].isna()==False])))
+# county_dropdown_labels = [s + ' - ' + c for s,c in combinations if str(s) not in ['nan','']]
+# county_dropdown_values = ['/' + c + '/' + s for c,s in combinations]
+
 layout = html.Div(
-    style={'backgroundColor': colors['background']},
+    style={'backgroundColor': colors['background'],
+           'padding-left': '2%',
+           'padding-right': '2%'},
     children=header+[
-        html.Br(),
-        html.Br(),
         html.H1(
             children='Tracking COVID-19',
             style={
-                'textAlign': 'center',
+                'textAlign': 'left',
                 'color': colors['text']
             }
         ),
@@ -38,65 +46,21 @@ layout = html.Div(
             children=[
 """Welcome to the coronavirus tracking dashboard. 
 You can use this tool to view the number of 
-COVID-19 **cases** and **deaths** in countries around the world.
+COVID-19 cases around the world.
 For the United States, data is also available at the state and 
 county levels.
 
-Instructions for accessing the data are provided below (click to make them visible):"""],
+Use the search bar or keep scrolling to get started"""],
             style={
                 'textAlign': 'left',
                 'color': colors['text'],
                 'fontSize': "20px",
-                'padding-left': '2%',
-                'padding-right': '2%',
                 'display': 'block'
             }
         ),
-        dcc.Dropdown(
-            id = 'dropdown-to-show_or_hide-element',
-            options=[
-                {'label': 'Instructions Visible', 'value': 'on'},
-                {'label': 'Instructions Hidden', 'value': 'off'}
-            ],
-            value='off',
-            searchable=False,
-            clearable=False,
-            style={
-                'padding-left': '2%',
-                'padding-right': '0%',
-                'width': '50%'
-            }
-        ),
-        # Create Div to place a conditionally visible element inside
-        html.Div([
-            dcc.Markdown(
-                id='element-to-hide',
-                children=[
-"""* For country-level data, either:
-  * Click on a country in the table below, or
-  * Add "/<country>" to the URL in your browser window (remove any spaces)
-    * Example: [http://coronavirusmapsonline.com/UnitedKingdom](http://coronavirusmapsonline.com/UnitedKingdom)
-* For US state-level data, either:
-  * Navigate to the **CASES BY US STATE** tab above, then click on a state in the table, or
-  * Navigate to the **CASES BY US COUNTY** tab above, then click on a state in the table, or
-  * Add "/<state>" to the URL in your browser window (remove any spaces)
-    * Example: [http://coronavirusmapsonline.com/NewYork](http://coronavirusmapsonline.com/NewYork)
-* For US county-level data, either:
-  * Navigate to the **CASES BY US COUNTY** tab above, then click on a county in the table, or
-  * From a "/<state>" page, click on the county, or 
-  * Add "/<state>/<county>" to the URL in your browser window (remove any spaces)
-    * Example: [http://coronavirusmapsonline.com/California/SantaClara](http://coronavirusmapsonline.com/California/SantaClara)
-* **Note:** Some links may need to be opened in a new tab"""],
-                style={
-                    'textAlign': 'left',
-                    'color': colors['text'],
-                    'fontSize': "20px",
-                    'padding-left': '2%',
-                    'padding-right': '2%',
-                    'display': 'block'
-                }
-            )
-        ]),
+
+        search_bar,
+
         html.Label(id='slider-label',
                    children='Loading...',
                    style=date_style_dict),
@@ -110,12 +74,14 @@ Instructions for accessing the data are provided below (click to make them visib
             step=1
         ),
 
+        html.Div(id='output-totals',
+                 style={'width': '30%'}),
+
         dcc.Graph(id='indicator-graphic'),
 
-        html.Div(id='output-totals',
-                 style={'padding-left': '2%',
-                        'padding-right': '2%',
-                        'width': '30%'}),
+        dcc.Graph(id='daily-graph'),
+
+        dcc.Graph(id='totals-graph'),
 
         html.Div(id='output-data-upload',
             style=table_style)
@@ -150,9 +116,27 @@ def update_graph(day):
             'geo': {'showframe': True,
                     'projection': {'type': 'natural earth'}
                     },
-            'plot_bgcolor': 'black'
+            'plot_bgcolor': 'black',
+            'title': {'text': 'Total cases by country on ' + dates[day]}
         }
     }
+
+
+@app.callback(Output('totals-graph', 'figure'),
+              [Input('date--slider', 'value'),
+               Input('url', 'pathname')])
+def show_total_cases_graph(day, pathname):
+    page = 'world'
+    return total_cases_graph(day, pathname, df, location_colname, dates, page)
+
+
+@app.callback(Output('daily-graph', 'figure'),
+              [Input('date--slider', 'value'),
+               Input('url', 'pathname')])
+def show_daily_cases_graph(day, pathname):
+    page='world'
+    return daily_cases_graph(day, pathname, df, location_colname, dates, page)
+
 
 @app.callback(Output('output-data-upload', 'children'),
               [Input('date--slider', 'value')])
@@ -170,27 +154,3 @@ def show_updated_totals(day):
               [Input('date--slider', 'value')])
 def show_date(day):
     return str(dates[day])
-
-
-@app.callback(
-   Output(component_id='element-to-hide', component_property='style'),
-   [Input(component_id='dropdown-to-show_or_hide-element', component_property='value')])
-def show_hide_element(visibility_state):
-    if visibility_state == 'on':
-        return {
-            'textAlign': 'left',
-            'color': colors['text'],
-            'fontSize': "20px",
-            'padding-left': '2%',
-            'padding-right': '2%',
-            'display': 'block'
-        }
-    if visibility_state == 'off':
-        return {
-            'textAlign': 'left',
-            'color': colors['text'],
-            'fontSize': "20px",
-            'padding-left': '2%',
-            'padding-right': '2%',
-            'display': 'none'
-        }

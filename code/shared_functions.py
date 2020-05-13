@@ -14,6 +14,16 @@ import flask
 
 
 
+world = pd.read_csv('../data/world_data_with_codes.csv')
+cummulative_cases = world.groupby(['Date', 'Country']).sum()[['Cases', 'Deaths']].reset_index()
+county_level_df = pd.read_csv('../data/daily_cases_USA_counties.csv')
+world_dropdown_choices = sorted(set(world['Country']))
+state_dropdown_choices = sorted(set(county_level_df['State'][county_level_df['State'].isna()==False]))
+combinations = sorted(set(zip(county_level_df['State'][county_level_df['State'].isna()==False],
+                              county_level_df['County'][county_level_df['State'].isna()==False])))
+county_dropdown_labels = [s + ' - ' + c for s,c in combinations if str(s) not in ['nan','']]
+county_dropdown_values = ['/' + c + '/' + s for c,s in combinations]
+
 with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
     counties = json.load(response)
 
@@ -21,50 +31,77 @@ colors = {
     'background': '#111111',
     'text': '#7FDBFF'
 }
-
 date_style_dict = {
     'textAlign': 'center',
     'color': colors['text'],
     'fontSize': "18px"
 }
-
-table_style = {'padding-left': '2%',
-               'padding-right': '2%'}
-
+table_style = {}
 baseURL = 'http://coronavirusmapsonline.com'
-header = [
-    dcc.Link(
-        html.Button('Cases by Country',
-                    className='three columns',
-                    style={
-                        'textAlign': 'center',
-                        'color': colors['text']
-                    }),
-        href=baseURL + '/'),
-    dcc.Link(
-        html.Button('Cases by US State',
-                    className='three columns',
-                    style={
-                        'textAlign': 'center',
-                        'color': colors['text']
-                    }),
-        href=baseURL + '/States'),
-    dcc.Link(
-        html.Button('Cases by US County',
-                    className='three columns',
-                    style={
-                        'textAlign': 'center',
-                        'color': colors['text']
-                    }),
-        href=baseURL + '/Counties'),
-    dcc.Link(
-        html.Button('About',
-                    className='three columns',
-                    style={
-                        'textAlign': 'center',
-                        'color': colors['text']
-                    }),
-        href=baseURL + '/About')]
+
+header = []
+# header = [
+#     dcc.Link(
+#         html.Button('Cases by Country',
+#                     className='three columns',
+#                     style={
+#                         'textAlign': 'center',
+#                         'color': colors['text']
+#                     }),
+#         href='/'),
+#     dcc.Link(
+#         html.Button('Cases by US State',
+#                     className='three columns',
+#                     style={
+#                         'textAlign': 'center',
+#                         'color': colors['text']
+#                     }),
+#         href='/unitedstates'),
+#     dcc.Link(
+#         html.Button('Cases by US County',
+#                     className='three columns',
+#                     style={
+#                         'textAlign': 'center',
+#                         'color': colors['text']
+#                     }),
+#         href='/unitedstates-counties'),
+#     dcc.Link(
+#         html.Button('About',
+#                     className='three columns',
+#                     style={
+#                         'textAlign': 'center',
+#                         'color': colors['text']
+#                     }),
+#         href='/About')]
+
+from app import app
+
+search_bar = \
+    dcc.Dropdown(
+        id='location-dropdown',
+        options=[{'label': 'Global Cases', 'value': '/' },
+                 {'label': 'United States - by State', 'value': '/unitedstates'},
+                 {'label': 'United States - by County', 'value': '/unitedstates-counties'}]+\
+                [{'label': location, 'value': '/' + location.replace(' ', '').lower()} \
+                 for location in world_dropdown_choices] + \
+                [{'label': location, 'value': '/' + location.replace(' ', '').lower()} \
+                 for location in state_dropdown_choices] + \
+                [{'label': l, 'value': v} \
+                 for l, v in zip(county_dropdown_labels, county_dropdown_values)],
+        placeholder="Jump to a country/state/county (search or select)",
+        searchable=True,
+        clearable=True,
+        style={
+            'padding-left': '0%',
+            'padding-right': '0%',
+            'width': '60%'
+        }
+    )
+
+@app.callback(Output(component_id='url', component_property='pathname'),
+              [Input(component_id='location-dropdown', component_property='value')])
+def link_to_choice(location):
+    return location
 
 
 def Table(dataframe, link_column_name=None, col1=None, col2=None, drop=[]):
@@ -85,9 +122,9 @@ def Table(dataframe, link_column_name=None, col1=None, col2=None, drop=[]):
                 value = dataframe.iloc[i][col]
                 if col in [col1, col2]:
                     if col == col2:
-                        cell = html.Td(dcc.Link(href=baseURL + links2[i], children=value))
+                        cell = html.Td(dcc.Link(href=links2[i], children=value))
                     else:
-                        cell = html.Td(dcc.Link(href=baseURL + links1[i], children=value))
+                        cell = html.Td(dcc.Link(href=links1[i], children=value))
                 else:
                     cell = html.Td(children=value)
                 row.append(cell)
@@ -118,15 +155,25 @@ def Table(dataframe, link_column_name=None, col1=None, col2=None, drop=[]):
 
 ### Callback functions
 
-def total_cases_graph(day, pathname, df, location_colname, dates):
+def total_cases_graph(day, pathname, df, location_colname, dates, page=None):
     location = pathname.strip('/').lower()
-    location_df = df[df[location_colname + '_'] == location].reset_index(drop=True)
+    if location.lower() == 'unitedstates-counties':
+        location = 'unitedstates'
+
+    if page !='world':
+        location_df = df[df[location_colname + '_'] == location].reset_index(drop=True)
+        l = location_df[location_colname].values[0]
+    else:
+        location_df = df.groupby(['Date']).sum()[['Cases','Deaths']].reset_index()
+        l = 'the world'
+    if l[:6].lower() == 'united':
+        l = 'the ' + l
     location_df.loc[:, 'Text'] = [f'<b>{x}</b><br>{int(y):,} Cases<br>{int(z):,} Deaths' for x, y, z in \
                                  zip(location_df['Date'], location_df['Cases'], location_df['Deaths'])]
-    xrange = [dates[0], str(datetime.strptime(dates[-1], "%Y-%m-%d") + timedelta(days=1))]
     df1 = location_df.loc[location_df['Date'] <= dates[day],:]
     df2 = location_df.loc[location_df['Date'] > dates[day],:]
-    yrange = [0, df1['Cases'].max()]
+    yrange = [0, max(50,df1['Cases'].max())]
+    xrange = [dates[0], str(datetime.strptime(dates[-1], "%Y-%m-%d") + timedelta(days=1))]
     show_legend_2 = False
     if len(df2) > 0:
         show_legend_2 = True
@@ -163,14 +210,24 @@ def total_cases_graph(day, pathname, df, location_colname, dates):
                      plot_bgcolor='white',
                      xaxis=dict(title='Date', range=xrange),
                      yaxis=dict(title='Total', range=yrange),
-                     title=dict(text='Total Cases and Deaths in ' + location_df[location_colname].values[0],
+                     title=dict(text='Total cases and deaths in ' + l,
                                 x=0.5),
                      legend=dict(x=0, y=1))
 
 
-def daily_cases_graph(day, pathname, df, location_colname, dates):
+def daily_cases_graph(day, pathname, df, location_colname, dates, page=None):
     location = pathname.strip('/').lower()
-    location_df = df[df[location_colname + '_'] == location].reset_index(drop=True)
+    if page !='world':
+        location_df = df[df[location_colname + '_'] == location].reset_index(drop=True)
+        if len(location_df) > 0:
+            l = location_df[location_colname].values[0]
+        else:
+            return go.Figure()
+    else:
+        location_df = df.groupby(['Date']).sum()[['Cases','Deaths']].reset_index()
+        l = 'the world'
+    if l[:6].lower() == 'united':
+        l = 'the ' + l
     c = location_df['Cases'].values
     d = location_df['Deaths'].values
     location_df['New Cases'] = [c[0]] + list(c[1:] - c[:-1])
@@ -179,11 +236,11 @@ def daily_cases_graph(day, pathname, df, location_colname, dates):
                                  zip(location_df['Date'], location_df['New Cases'], location_df['New Deaths'])]
     df1 = location_df.loc[location_df['Date'] <= dates[day],:]
     df2 = location_df.loc[location_df['Date'] > dates[day],:]
-    yrange = [0, df1['New Cases'].max()]
+    yrange = [0, max(5,df1['New Cases'].max())]
+    xrange = [dates[0], str(datetime.strptime(dates[-1], "%Y-%m-%d") + timedelta(days=1))]
     show_legend_2 = False
     if len(df2) > 0:
         show_legend_2 = True
-    xrange = [dates[0], str(datetime.strptime(dates[-1], "%Y-%m-%d") + timedelta(days=1))]
     return go.Figure(data=[
         go.Bar(name='New Deaths',
                x=df1['Date'],
@@ -217,7 +274,7 @@ def daily_cases_graph(day, pathname, df, location_colname, dates):
                       plot_bgcolor='white',
                       xaxis=dict(title='Date', range=xrange),
                       yaxis=dict(title='Total', range=yrange),
-                      title=dict(text='Daily Cases and Deaths in ' + location_df[location_colname].values[0],
+                      title=dict(text='Daily cases and deaths in ' + l,
                                  x=0.5),
                       legend=dict(x=0, y=1))
 
@@ -315,19 +372,31 @@ def update_header(pathname, cummulative_cases, location_colname, page):
             return "Tracking COVID-19 in " + str(location)
         else:
             return "Tracking COVID-19 in " + str(location) + ' County'
+    elif page == 'unitedstates-counties':
+        location = 'unitedstates'
+        location = cummulative_cases \
+            .loc[cummulative_cases[location_colname] \
+                     .map(lambda x: str(x).replace(' ', '').lower()) == location, location_colname].values[0]
+        if location.lower()[:6] == 'united':
+            return "Tracking COVID-19 in the " + str(location)
+        return "Tracking COVID-19 in " + str(location)
     else:
         if page in ['any_state', 'any_country']:
             location = pathname.strip('/').lower()
             location = cummulative_cases\
                 .loc[cummulative_cases[location_colname]\
                 .map(lambda x: str(x).replace(' ', '').lower()) == location, location_colname].values[0]
+            if location.lower()[:6] == 'united':
+                return "Tracking COVID-19 in the " + str(location)
             return "Tracking COVID-19 in " + str(location)
 
 
 def update_totals(day, pathname, cummulative_cases, location_colname, dates, page):
-    if page in ['any_county', 'any_state', 'any_country']:
+    if page in ['any_county', 'any_state', 'any_country','unitedstates-counties']:
         if page == 'any_county':
             location = pathname.split('/')[2].lower()
+        elif pathname.lower() == '/unitedstates-counties':
+            location = 'unitedstates'
         else:
             location = pathname.strip('/').lower()
         day_totals = cummulative_cases[

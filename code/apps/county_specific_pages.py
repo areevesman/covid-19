@@ -25,17 +25,20 @@ dates = sorted(set([x for x in dates if x if x[0]=='2']))
 location_dfs = [pd.read_csv(f'../data/county_data/{f}') for f in sorted(os.listdir('../data/county_data/'))]
 
 layout = html.Div(
-    style={'backgroundColor': colors['background']},
+    style={'backgroundColor': colors['background'],
+           'padding-left': '2%',
+           'padding-right': '2%'},
     children=header + [
-        html.Br(),
-        html.Br(),
         html.H1(id="page-title_US_CS",
             children='Loading...',
             style={
-                'textAlign': 'center',
+                'textAlign': 'left',
                 'color': colors['text']
             }
         ),
+
+        search_bar,
+
         html.Label(id='slider-label_US_CS',
                    children='Loading...',
                    style=date_style_dict),

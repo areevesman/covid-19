@@ -17,7 +17,7 @@ df_US = pd.read_csv('../data/daily_cases_USA_states.csv')
 df_US_c = pd.read_csv('../data/daily_cases_USA_counties.csv')
 
 app.layout = html.Div([
-    dcc.Location(id='url', refresh=False),
+    dcc.Location(id='url', refresh=True),
     html.Div(id='page-content')
 ])
 
@@ -28,14 +28,17 @@ def display_page(pathname):
     pathname = pathname.lower()
     if pathname == '/':
         return world_page.layout
-    elif pathname == '/states':
-        return usa_states_page.layout
-    elif pathname == '/counties':
+    # elif pathname == '/states':
+    #     return usa_states_page.layout
+    elif pathname == '/unitedstates-counties':
         return usa_counties_page.layout
     elif pathname == '/about':
         return about.layout
     elif pathname in['/'+x.replace(' ','').lower() for x in set(df['Country'].values) if str(x) != 'nan']:
-        return country_specific_pages.layout
+        if pathname.lower()=='/unitedstates':
+            return usa_states_page.layout
+        else:
+            return country_specific_pages.layout
     elif pathname in['/'+x.replace(' ','').lower() for x in set(df_US['State'].values) if str(x) != 'nan']:
         return state_specific_pages.layout
     elif pathname in['/' + y.replace(' ','').lower() + '/' + x.replace(' ','').lower()\

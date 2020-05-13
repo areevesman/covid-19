@@ -22,17 +22,20 @@ cummulative_cases = df.groupby(['Date', location_colname]).sum()[['Cases', 'Deat
 dates = sorted(set(df['Date']))
 
 layout = html.Div(
-    style={'backgroundColor': colors['background']},
+    style={'backgroundColor': colors['background'],
+           'padding-left': '2%',
+           'padding-right': '2%'},
     children=header + [
-        html.Br(),
-        html.Br(),
         html.H1(id="page-title_CS",
             children='Loading...',
             style={
-                'textAlign': 'center',
+                'textAlign': 'left',
                 'color': colors['text']
             }
         ),
+
+        search_bar,
+
         html.Label(id='slider-label_CS',
                    children='Loading...',
                    style=date_style_dict),
