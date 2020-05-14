@@ -525,8 +525,8 @@ state_page_df_grouped = state_page_df.groupby(['Date', 'State', 'Day', 'Code'])\
     .sum()[['Cases', 'Deaths']].reset_index()
 state_page_dates = sorted(set(state_page_df['Date']))
 states = [x for x in set(state_page_df['State']) if str(x) != 'nan']
-state_page_dates = [str(x).replace('date_', '').replace('.csv', '') for x in os.listdir('../data/county_data/')]
-state_page_dates = sorted(set([x for x in state_page_dates if x if x[0]=='2']))
+usa_state_page_dates = [str(x).replace('date_', '').replace('.csv', '') for x in os.listdir('../data/county_data/')]
+usa_state_page_dates = sorted(set([x for x in usa_state_page_dates if x if x[0]=='2']))
 
 
 # country specific pages

@@ -93,7 +93,7 @@ def update_graph(day):
               [Input('date--slider_C', 'value'),
                Input('url', 'pathname')])
 def show_updated_totals(day, pathname):
-  return update_totals(day, pathname, world_page_df_grouped, world_page_entities, world_page_dates)
+  return update_totals(day, pathname, world_page_df_grouped, world_page_entities, usa_county_page_dates)
 
 @app.callback(Output('output-data-upload_C', 'children'),
               [Input('date--slider_C', 'value'),

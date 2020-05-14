@@ -40,9 +40,9 @@ layout = html.Div(
         dcc.Slider(
             id='date--slider_US',
             min=0,
-            max=len(state_page_dates) - 1,
-            value=len(state_page_dates) - 1,
-            marks={i: str() for i in range(len(state_page_dates))},
+            max=len(C_page_dates) - 1,
+            value=len(C_page_dates) - 1,
+            marks={i: str() for i in range(len(C_page_dates))},
             step=1
         ),
 
@@ -104,7 +104,7 @@ def show_daily_cases_graph(day, pathname):
               [Input('date--slider_US', 'value'),
                Input('url', 'pathname')])
 def show_updated_totals(day, pathname):
-  return update_totals(day, pathname, world_page_df_grouped, 'Country', world_page_dates)
+  return update_totals(day, pathname, world_page_df_grouped, 'Country', usa_state_page_dates)
 
 @app.callback(Output('output-data-upload_US', 'children'),
               [Input('date--slider_US', 'value'),

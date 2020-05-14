@@ -70,7 +70,6 @@ def show_daily_cases_graph(day, pathname):
               [Input('date--slider_CS', 'value'),
                Input('url', 'pathname')])
 def show_updated_totals(day, pathname):
-    print(world_page_df_grouped)
     return update_totals(day, pathname, world_page_df_grouped, world_page_entities, world_page_dates)
 
 
