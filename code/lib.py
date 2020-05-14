@@ -335,6 +335,8 @@ def update_totals(day, pathname, cummulative_cases, location_colname, dates):
                         .strip('/') \
                         .lower()
                     location_colname = 'Country'
+                    print(location_colname)
+                    print(cummulative_cases.head())
                 else:
                     location = pathname\
                         .replace('/countries','')\
@@ -342,6 +344,8 @@ def update_totals(day, pathname, cummulative_cases, location_colname, dates):
                         .strip('/')\
                         .lower()
                     location_colname = 'State'
+                print(cummulative_cases.head())
+                print(cummulative_cases[location_colname])
                 day_totals = cummulative_cases[
                     (cummulative_cases['Date'] == dates[day]) &
                     (cummulative_cases[location_colname].map(lambda x: str(x).replace(' ', '').lower()) == location)].sum()

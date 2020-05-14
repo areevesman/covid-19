@@ -70,7 +70,8 @@ def show_daily_cases_graph(day, pathname):
               [Input('date--slider_CS', 'value'),
                Input('url', 'pathname')])
 def show_updated_totals(day, pathname):
-  return update_totals(day, pathname, C_page_df_grouped, C_page_entities, C_page_dates)
+    print(world_page_df_grouped)
+    return update_totals(day, pathname, world_page_df_grouped, world_page_entities, world_page_dates)
 
 
 @app.callback(Output('slider-label_CS', 'children'),

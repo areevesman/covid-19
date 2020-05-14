@@ -104,7 +104,7 @@ def show_daily_cases_graph(day, pathname):
               [Input('date--slider_US', 'value'),
                Input('url', 'pathname')])
 def show_updated_totals(day, pathname):
-  return update_totals(day, pathname, state_page_df_grouped, 'State', state_page_dates)
+  return update_totals(day, pathname, world_page_df_grouped, 'Country', world_page_dates)
 
 @app.callback(Output('output-data-upload_US', 'children'),
               [Input('date--slider_US', 'value'),
