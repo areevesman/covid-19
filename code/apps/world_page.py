@@ -11,23 +11,11 @@ import os
 import flask
 
 
-from shared_functions import *
+# from shared_functions import *
+from lib import *
 
 from app import app
 
-page, pathname = None, None
-location_colname = 'Country'
-df = pd.read_csv('../data/world_data_with_codes.csv')
-cummulative_cases = df.groupby(['Date', location_colname]).sum()[['Cases', 'Deaths']].reset_index()
-dates = sorted(set(df['Date']))
-
-# county_level_df = pd.read_csv('../data/daily_cases_USA_counties.csv')
-# world_dropdown_choices = sorted(set(df[location_colname]))
-# state_dropdown_choices = sorted(set(county_level_df['State'][county_level_df['State'].isna()==False]))
-# combinations = sorted(set(zip(county_level_df['State'][county_level_df['State'].isna()==False],
-#                               county_level_df['County'][county_level_df['State'].isna()==False])))
-# county_dropdown_labels = [s + ' - ' + c for s,c in combinations if str(s) not in ['nan','']]
-# county_dropdown_values = ['/' + c + '/' + s for c,s in combinations]
 
 layout = html.Div(
     style={'backgroundColor': colors['background'],
@@ -68,9 +56,9 @@ Use the search bar or keep scrolling to get started. You can use the slider bar 
         dcc.Slider(
             id='date--slider',
             min=0,
-            max=len(dates) - 1,
-            value=len(dates) - 1,
-            marks={i: str() for i in range(len(dates))},
+            max=len(world_page_dates) - 1,
+            value=len(world_page_dates) - 1,
+            marks={i: str() for i in range(len(world_page_dates))},
             step=1
         ),
 
@@ -91,16 +79,16 @@ Use the search bar or keep scrolling to get started. You can use the slider bar 
     Output('indicator-graphic', 'figure'),
     [Input('date--slider', 'value')])
 def update_graph(day):
-    dff = df[df['Date'] == dates[day]]
+    dff = world_page_df[world_page_df['Date'] == world_page_dates[day]]
     dff.loc[:, 'Text'] = [f'<b>{y}</b><br>{x:,} Cases<br>{z:,} Deaths' for x, y, z in
-                          zip(dff['Cases'], dff[location_colname], dff['Deaths'])]
+                          zip(dff['Cases'], dff[world_page_entities], dff['Deaths'])]
 
     return {
         'data': [{'type': 'choropleth',
                   'locations': dff['Code'],
                   'z': dff['Cases'],
                   'zmin': 0,
-                  'zmax': cummulative_cases['Cases'].max() * 1.05,
+                  'zmax': world_page_df_grouped['Cases'].max() * 1.05,
                   'text': dff['Text'],
                   'hoverinfo': 'text',
                   'colorbar': {'title': 'Total Cases'},
@@ -117,7 +105,7 @@ def update_graph(day):
                     'projection': {'type': 'natural earth'}
                     },
             'plot_bgcolor': 'black',
-            'title': {'text': 'Total cases by country on ' + dates[day]}
+            'title': {'text': 'Total cases by country on ' + world_page_dates[day]}
         }
     }
 
@@ -126,31 +114,29 @@ def update_graph(day):
               [Input('date--slider', 'value'),
                Input('url', 'pathname')])
 def show_total_cases_graph(day, pathname):
-    page = 'world'
-    return total_cases_graph(day, pathname, df, location_colname, dates, page)
+    return total_cases_graph(day, pathname, world_page_df, world_page_entities, world_page_dates)
 
 
 @app.callback(Output('daily-graph', 'figure'),
               [Input('date--slider', 'value'),
                Input('url', 'pathname')])
 def show_daily_cases_graph(day, pathname):
-    page='world'
-    return daily_cases_graph(day, pathname, df, location_colname, dates, page)
+    return daily_cases_graph(day, pathname, world_page_df, world_page_entities, world_page_dates)
 
 
 @app.callback(Output('output-data-upload', 'children'),
-              [Input('date--slider', 'value')])
-def show_data_table(day):
-    page='world'
-    return data_table(day, None, cummulative_cases, dates, location_colname, None, page)
+              [Input('date--slider', 'value'),
+               Input('url', 'pathname')])
+def show_data_table(day, pathname):
+    return data_table(day, pathname, world_page_df_grouped, world_page_dates, world_page_entities)
 
 @app.callback(Output('output-totals', 'children'),
               [Input('date--slider', 'value')])
 def show_updated_totals(day):
-  return update_totals(day, pathname, cummulative_cases, location_colname, dates, page)
+  return update_totals(day, None, world_page_df_grouped, world_page_entities, world_page_dates)
 
 
 @app.callback(Output('slider-label', 'children'),
               [Input('date--slider', 'value')])
 def show_date(day):
-    return str(dates[day])
+    return str(world_page_dates[day])

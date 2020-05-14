@@ -10,19 +10,12 @@ from dash.dependencies import Input, Output
 import os
 import flask
 
-from shared_functions import *
+# from shared_functions import *
+from lib import *
+
 
 from app import app
 
-
-location_colname = 'County'
-page = 'any_county'
-df = pd.read_csv('../data/daily_cases_USA_counties.csv')
-df[location_colname + '_'] = [str(y).replace(' ','').lower() + '/' + str(x).replace(' ','').lower() for x,y in zip(df[location_colname], df['State'])]
-cummulative_cases = df.groupby(['Date', location_colname, 'State', 'Code']).sum()[['Cases', 'Deaths']].reset_index()
-dates = [str(x).replace('date_', '').replace('.csv', '') for x in os.listdir('../data/county_data/')]
-dates = sorted(set([x for x in dates if x if x[0]=='2']))
-location_dfs = [pd.read_csv(f'../data/county_data/{f}') for f in sorted(os.listdir('../data/county_data/'))]
 
 layout = html.Div(
     style={'backgroundColor': colors['background'],
@@ -46,16 +39,14 @@ layout = html.Div(
         dcc.Slider(
             id='date--slider_US_CS',
             min=1,
-            max=len(dates) - 1,
-            value=len(dates) - 1,
-            marks={i: str() for i in range(len(dates))},
+            max=len(CS_page_dates) - 1,
+            value=len(CS_page_dates) - 1,
+            marks={i: str() for i in range(len(CS_page_dates))},
             step=1
         ),
 
         html.Div(id='output-totals_US_CS',
-                 style={'padding-left': '2%',
-                        'padding-right': '2%',
-                        'width': '30%'}),
+                 style={'width': '30%'}),
 
         dcc.Graph(id='daily-graph_US_CS'),
 
@@ -67,31 +58,31 @@ layout = html.Div(
               [Input('date--slider_US_CS', 'value'),
                Input('url', 'pathname')])
 def show_total_cases_graph(day, pathname):
-    return total_cases_graph(day, pathname, df, location_colname, dates)
+    return total_cases_graph(day, pathname, CS_page_df, CS_page_entities, CS_page_dates)
 
 
 @app.callback(Output('daily-graph_US_CS', 'figure'),
               [Input('date--slider_US_CS', 'value'),
                Input('url', 'pathname')])
 def show_daily_cases_graph(day, pathname):
-    return daily_cases_graph(day, pathname, df, location_colname, dates)
+    return daily_cases_graph(day, pathname, CS_page_df, CS_page_entities, CS_page_dates)
 
 
 @app.callback(Output('output-totals_US_CS', 'children'),
               [Input('date--slider_US_CS', 'value'),
                Input('url', 'pathname')])
 def show_updated_totals(day, pathname):
-  return update_totals(day, pathname, cummulative_cases, location_colname, dates, page)
+  return update_totals(day, pathname, CS_page_df_grouped, CS_page_entities, CS_page_dates)
 
 
 @app.callback(Output('slider-label_US_CS', 'children'),
               [Input('date--slider_US_CS', 'value')])
 def show_date(day):
-    return str(dates[day])
+    return str(CS_page_dates[day])
 
 
 @app.callback(Output('page-title_US_CS', 'children'),
               [Input('url', 'pathname')])
 def show_updated_header(pathname):
-    return update_header(pathname, cummulative_cases, location_colname, page)
+    return update_header(pathname, CS_page_df_grouped, CS_page_entities)
 

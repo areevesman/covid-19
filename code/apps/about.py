@@ -11,7 +11,7 @@ import os
 import flask
 
 
-from shared_functions import *
+from lib import *
 
 from app import app
 
