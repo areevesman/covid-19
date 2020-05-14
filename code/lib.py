@@ -71,9 +71,6 @@ def total_cases_graph(day, pathname, df, location_colname, dates, dates2=None):
         if location in ['']:  # world_page
             location_df = df.groupby(['Date']).sum()[['Cases', 'Deaths']].reset_index()
             l = 'globally'
-            # df[location_colname + '_'] = [str(x).replace(' ', '').lower() for x in df[location_colname]]
-            # location_df = df.copy() #[df[location_colname + '_'] == location].reset_index(drop=True)
-            # print(location_df)
         else:
             # any county
             if len(pathname) - len(pathname.replace('/', '')) > 2:
@@ -335,8 +332,6 @@ def update_totals(day, pathname, cummulative_cases, location_colname, dates):
                         .strip('/') \
                         .lower()
                     location_colname = 'Country'
-                    print(location_colname)
-                    print(cummulative_cases.head())
                 else:
                     location = pathname\
                         .replace('/countries','')\
@@ -344,8 +339,6 @@ def update_totals(day, pathname, cummulative_cases, location_colname, dates):
                         .strip('/')\
                         .lower()
                     location_colname = 'State'
-                print(cummulative_cases.head())
-                print(cummulative_cases[location_colname])
                 day_totals = cummulative_cases[
                     (cummulative_cases['Date'] == dates[day]) &
                     (cummulative_cases[location_colname].map(lambda x: str(x).replace(' ', '').lower()) == location)].sum()
