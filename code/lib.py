@@ -125,7 +125,7 @@ def total_cases_graph(day, pathname, df, location_colname, dates, dates2=None):
                          plot_bgcolor='white',
                          xaxis=dict(title='Date', range=xrange),
                          yaxis=dict(title='Total', range=yrange),
-                         title=dict(text='Total cases and deaths in ' + l, x=0.5),
+                         title=dict(text='Total cases and deaths ' + l, x=0.5),
                          legend=dict(x=0, y=1))
     except:
         return go.Figure()
