@@ -1,7 +1,10 @@
 .DS_Store
 __pycache__/
 .idea
-data
+data/county_data/date_*
+data/daily_cases_USA_counties.csv
+data/daily_cases_USA_states.csv
+data/world_data_with_codes.csv
 data.zip
 assets
 *.zip
