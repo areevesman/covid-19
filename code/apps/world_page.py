@@ -38,7 +38,7 @@ COVID-19 cases around the world.
 For the United States, data is also available at the state and 
 county levels.
 
-Use the search bar or keep scrolling to get started. You can use the slider bar to select at date."""],
+Use the search bar or keep scrolling to get started. You can use the slider bar to select a date."""],
             style={
                 'textAlign': 'left',
                 'color': colors['text'],
