@@ -148,4 +148,3 @@ dependencies:
     - itsdangerous==1.1.0
     - werkzeug==1.0.1
 prefix: /anaconda3/envs/covid19
-
