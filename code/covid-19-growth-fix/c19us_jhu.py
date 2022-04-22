@@ -29,8 +29,9 @@ def df_from_daily_report(date, url):
     df['date'] = date
     df['day'] = (date - pd.to_datetime(start_date)).days
     for column in county_columns:
-        df[column] = df.apply(
-            lambda row: counties.loc[column, str(row['fips'])], axis=1)
+        # df[column] = df.apply(
+        #     lambda row: counties.loc[column, str(row['fips'])], axis=1)
+        df[column] = [0]*len(df['day'])
     return df[output_columns]
 
 dfs = []
